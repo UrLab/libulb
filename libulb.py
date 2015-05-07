@@ -85,3 +85,17 @@ class Client:
         resp = requests.get(self.BASE + "rest/etudiants/" + str(self.pidm) + "/photo", params=params)
 
         return resp.content
+
+    def gehol(self, start, stop):
+        """Returns a list of courses that have an intersection with the timespan given by start and stop.
+        Both should be datetime.datetime objects without attached timezones but in the Belgian timezone"""
+
+        form = "%Y-%m-%dT%H:%M:%S.000Z"
+        params = {
+            'token': self.token,
+            'startDate': start.strftime(form),
+            'endDate': stop.strftime(form),
+        }
+        resp = requests.get(self.BASE + "rest/etudiants/" + str(self.pidm) + "/horaire", params=params)
+
+        return resp.json()['data']
