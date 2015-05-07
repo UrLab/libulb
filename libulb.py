@@ -10,8 +10,6 @@ class Client:
         self.pidm = pidm
         self.token = token
 
-        self._get_user_info()
-
     @classmethod
     def auth(cls, netid, password):
         params = {
@@ -27,32 +25,36 @@ class Client:
 
         return cls(pidm, token)
 
-    def _get_user_info(self):
+    def info(self):
         params = {'token': self.token}
         resp = requests.get(self.BASE + "rest/etudiants/" + str(self.pidm), params=params)
         j = resp.json()
         data = j['data'][0]
 
-        self.matricule = data['banner_id']
-        self.name = data['prenom']
-        self.surname = data['nom']
-        self.sex = data['sexe']
-        self.civilite = data['civilite']
-        self.birth = data['date_naissance_desc']
-        self.birth_place = data['lieu_naissance']
-        self.birth_country = data['pays_naissance_desc']
-        self.nationality = data['nationalite']
-        self.etat_civil = data['etat_civil_desc']
-        self.bibilo_id = data['bibliocode']
-        self.private_email = data['emailpri']
-        self.ulb_email = data['emailulb']
-        self.address = {
-            'street': data['addresse1_pr'],
-            'postal_code': data['code_postal_pr'],
-            'locality': data['localite_pr'],
-            'country': data['pays_desc_pr'],
+        info = {
+            'matricule': data['banner_id'],
+            'name': data['prenom'],
+            'surname': data['nom'],
+            'sex': data['sexe'],
+            'civilite': data['civilite'],
+            'birth': data['date_naissance_desc'],
+            'birth_place': data['lieu_naissance'],
+            'birth_country': data['pays_naissance_desc'],
+            'nationality': data['nationalite'],
+            'etat_civil': data['etat_civil_desc'],
+            'bibilo_id': data['bibliocode'],
+            'private_email': data['emailpri'],
+            'ulb_email': data['emailulb'],
+            'address': {
+                'street': data['addresse1_pr'],
+                'postal_code': data['code_postal_pr'],
+                'locality': data['localite_pr'],
+                'country': data['pays_desc_pr'],
+            },
+            'phone': data['telephone'],
         }
-        self.phone = data['telephone']
+
+        return info
 
     def inscriptions(self):
         params = {'token': self.token}
@@ -75,3 +77,11 @@ class Client:
         data = resp.json()['data']
 
         return data
+
+    def photo(self):
+        """Returns bytes containing a .jpg image of the student"""
+
+        params = {'token': self.token}
+        resp = requests.get(self.BASE + "rest/etudiants/" + str(self.pidm) + "/photo", params=params)
+
+        return resp.content
