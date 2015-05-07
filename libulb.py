@@ -78,6 +78,21 @@ class Client:
 
         return data
 
+    def note_detail(self, note):
+        session = note['session_num']
+        dgmr_seq_no = note['dgmr_seq_no']
+        crn = note['crn']
+        params = {
+            'token': self.token,
+            'session': session,
+        }
+        resp = requests.get(
+            self.BASE + "rest/etudiants/" + str(self.pidm) + "/inscriptions/" + str(dgmr_seq_no) + "/notes/" + str(crn),
+            params=params
+        )
+
+        return resp.json()['data'][0]
+
     def photo(self):
         """Returns bytes containing a .jpg image of the student"""
 

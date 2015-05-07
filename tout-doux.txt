@@ -1,5 +1,3 @@
 Reste à implémenter :
 
 MonULB.util.Config.getRestApiBaseUrl() + "etudiants/{pidm}/pushtokens" (?)
-
-MonULB.util.Config.getRestApiBaseUrl() + "etudiants/{pidm}/inscriptions/{dgmr_seq_no}/notes/{crn}?session={session_num}" (détail d'une note {crn} est dispo dans la liste des notes)
