@@ -88,7 +88,7 @@ class Client:
 
     def gehol(self, start, stop):
         """Returns a list of courses that have an intersection with the timespan given by start and stop.
-        Both should be datetime.datetime objects without attached timezones but in the Belgian timezone"""
+        Both should be naive datetime.datetime objects in the Belgian timezone"""
 
         form = "%Y-%m-%dT%H:%M:%S.000Z"
         params = {
@@ -99,3 +99,16 @@ class Client:
         resp = requests.get(self.BASE + "rest/etudiants/" + str(self.pidm) + "/horaire", params=params)
 
         return resp.json()['data']
+
+    def announces(self):
+        params = {'token': self.token}
+        resp = requests.get(self.BASE + "rest/etudiants/" + str(self.pidm) + "/annonces", params=params)
+
+        return resp.json()['data']
+
+    def announce_detail(self, announce):
+        params = {'token': self.token}
+        taid = announce['taid']
+        resp = requests.get(self.BASE + "rest/etudiants/" + str(self.pidm) + "/annonces/" + str(taid), params=params)
+
+        return resp.json()['data'][0]
