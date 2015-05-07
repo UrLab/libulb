@@ -1,0 +1,8 @@
+Reste à implémenter :
+
+MonULB.util.Config.getRestApiBaseUrl() + "etudiants/{pidm}/photo" (renvoie une photo en jpg)
+MonULB.util.Config.getRestApiBaseUrl() + "etudiants/{pidm}/pushtokens" (?)
+MonULB.util.Config.getRestApiBaseUrl() + "etudiants/{pidm}/annonces" (liste des annonces)
+MonULB.util.Config.getRestApiBaseUrl() + "etudiants/{pidm}/annonces/{taid}" (détail d'une annonce, {taid} est récupéré dans la liste des annonces)
+MonULB.util.Config.getRestApiBaseUrl() + "etudiants/{pidm}/inscriptions/{dgmr_seq_no}/notes/{crn}?session={session_num}" (détail d'une note {crn} est dispo dans la liste des notes)
+MonULB.util.Config.getRestApiBaseUrl() + "etudiants/{pidm}/horaire?startDate={startDate}&endDate={endDate}" (horaires gehol, {start/end Date}  sont des dates JS serialisées en JSON (2015-05-07T09:18:03.471Z))
