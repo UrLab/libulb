@@ -130,9 +130,12 @@ def print_notes(api_client, inscription):
         all_ects = sum(x.ects for x in courses)
         all_0 = round(sum(c.default_note(0)*c.ects for c in courses)/all_ects, 1)
         all_20 = round(sum(c.default_note(20)*c.ects for c in courses)/all_ects, 1)
+        description = "Note finale"
+        if all_ects != ects:
+            description += " entre %s et %s" % (str(all_0), str(all_20))
         avg_course = Course(
             mnemonic="Moyenne",
-            name="Note finale entre %s et %s" % (str(all_0), str(all_20)),
+            name=description,
             ects=ects, note=mu,
             lower_note=all_0,
             upper_note=all_20)
