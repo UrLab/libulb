@@ -116,7 +116,6 @@ class Course:
 
 def print_notes(api_client, inscription):
     courses = map(Course.from_ulb_api, api_client.notes(inscription))
-    evaluated = filter(lambda c: c.note is not None, courses)
     
     print hilight("%s - %s (session %d)" % (
         inscription['area'], inscription['term_desc'], inscription['session_num']))
@@ -124,6 +123,7 @@ def print_notes(api_client, inscription):
     print Course.separator
     print '\n'.join(map(unicode, courses))
 
+    evaluated = filter(lambda c: c.note is not None, courses)
     if evaluated:
         ects = sum(x.ects for x in evaluated)
         mu = sum(x.note*x.ects for x in evaluated)/ects
@@ -141,6 +141,17 @@ def print_notes(api_client, inscription):
             upper_note=all_20)
         print Course.separator
         print unicode(avg_course)
+
+    passed = filter(lambda c: c.note and c.note >= 10, courses)
+    if passed:
+        ects = sum(x.ects for x in passed)
+        mu = sum(x.note*x.ects for x in passed)/ects
+        avg_course = Course(
+            mnemonic="Reussis",
+            name="Cours dont la note est >= 10/20",
+            ects=ects, note=mu, lower_note=mu)
+        print unicode(avg_course)
+
     print
 
 
