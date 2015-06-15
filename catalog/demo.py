@@ -1,77 +1,97 @@
 import requests
 from bs4 import BeautifulSoup
-
-def _get_course(year, fac, num):
-    url = "http://banssbfr.ulb.ac.be/PROD_frFR/bzscrse.p_disp_course_detail"
-    params = {
-        'cat_term_in': year,
-        'subj_code_in': fac,
-        'crse_numb_in': num,
-    }
-    return requests.get(url, params=params)
-
-def _course_to_dict(html):
-    soup = BeautifulSoup(html)
-
-    table = soup.find('table', 'bordertable')
-    tr_list = table('tr')
-
-    infos = {}
-
-    for line in tr_list:
-        if len(line('td')) != 2:
-            continue
-        key, val = line('td')
-        key = key.text.strip().strip("*").strip()
-        val = val.text.strip().strip("*").strip()
-        infos[key] = val
-
-    return infos
+import re
 
 
-def _dict_to_course(d):
-    name = d["Intitulé de l'unité d'enseignement"]
+class Course:
+    def __init__(self, slug, year, infos):
+        self.slug = slug
+        self.year = year
 
-    language = d.get("Langue d'enseignement", None)
-    if "français" in language:
-        language = "french"
-    elif "anglais" in language:
-        language = "english"
-    else:
-        if "Enseigné en" in language:
-            language = language.replace("Enseigné en", "")
+        self._fill(infos)
+
+    @classmethod
+    def get_from_slug(cls, slug, year):
+        slug = slug.upper()
+        match = re.match(r'([A-Z]{4})-?([A-Z])-?([0-9]{2,4})', slug)
+        if not match:
+            raise ValueError("Invalid slug format")
+
+        response = cls._query_ulb(year, match.group(1), match.group(2) + match.group(3))
+        if not response.ok:
+            raise Exception("Error with ulb")
+
+        soup = BeautifulSoup(response.text)
+
+        table = soup.find('table', 'bordertable')
+        tr_list = table('tr')
+
+        infos = {}
+
+        for line in tr_list:
+            if len(line('td')) != 2:
+                continue
+            key, val = line('td')
+            key = key.text.strip().strip("*").strip()
+            val = val.text.strip().strip("*").strip()
+            infos[key] = val
+
+        slug = "{}-{}-{}".format(match.group(1), match.group(2), match.group(3)).lower()
+        return cls(slug, year, infos)
+
+    @classmethod
+    def _query_ulb(cls, year, fac, num):
+        url = "http://banssbfr.ulb.ac.be/PROD_frFR/bzscrse.p_disp_course_detail"
+        params = {
+            'cat_term_in': year,
+            'subj_code_in': fac,
+            'crse_numb_in': num,
+        }
+        return requests.get(url, params=params)
+
+    def _fill(self, d):
+        self.name = d["Intitulé de l'unité d'enseignement"]
+
+        language = d.get("Langue d'enseignement", None)
+        if "français" in language:
+            self.language = "french"
+        elif "anglais" in language:
+            self.language = "english"
         else:
-            language = None
+            if "Enseigné en" in language:
+                self.language = language.replace("Enseigné en", "")
+            else:
+                self.language = None
 
-    profs = []
-    prof_str = d.get("Titulaire(s)", None)
-    if not (prof_str is None or prof_str.strip() == ""):
-        for prof in prof_str.split(','):
-            prof = prof.replace("(coordonnateur)", "")
-            prof = prof.strip()
-            prof = prof.title()
-            profs.append(prof)
+        self.profs = []
+        prof_str = d.get("Titulaire(s)", None)
+        if not (prof_str is None or prof_str.strip() == ""):
+            for prof in prof_str.split(','):
+                prof = prof.replace("(coordonnateur)", "")
+                prof = prof.strip()
+                prof = prof.title()
+                self.profs.append(prof)
 
-    requirements = d.get("Connaissances et compétences pré-requises", None)
+        self.requirements = d.get("Connaissances et compétences pré-requises", None)
 
-    sections = []
-    sections_str = d.get("Programme d'études comprenant l'unité d'enseignement", None)
-    if sections_str is not None and sections_str.strip() != "":
-        for section in sections_str.split("\n"):
-            match_section = re.match(r'^- ([A-Z1-9\-]{2,}) -', section)
-            if match_section:
-                search = re.search(r'\(([0-9]+) (crédit|crédits), (optionnel|obligatoire)\)', section)
-                sections.append({
-                    'section': match_section.group(1),
-                    'credits': int(search.group(1)),
-                    'required': search.group(3) == 'obligatoire'
-                })
+        self.sections = []
+        sections_str = d.get("Programme d'études comprenant l'unité d'enseignement", None)
+        # import ipdb; ipdb.set_trace()
+        if sections_str is not None and sections_str.strip() != "":
+            for section in sections_str.split("\n"):
+                match_section = re.match(r'^- ([A-Z1-9\-]{2,}) -', section.strip())
+                if match_section:
+                    search = re.search(r'\(([0-9]+) (crédit|crédits), (optionnel|obligatoire)\)', section)
+                    self.sections.append({
+                        'section': match_section.group(1),
+                        'credits': int(search.group(1)),
+                        'required': search.group(3) == 'obligatoire'
+                    })
 
+        if len(self.sections) != 0:
+            self.credits = self.sections[0]['credits']
+        else:
+            self.credits = None
 
-
-
-
-
-
-a = _get_course("201516", "INFO", "F101")
-d = _parse_course(a.text)
+if __name__ == '__main__':
+    course = Course.get_from_slug('info-f-101', "201516")
