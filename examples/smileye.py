@@ -1,7 +1,7 @@
-import libulb
+from libulb.smileye_app import api
 from datetime import datetime
 
-c = libulb.Client.auth('adelcha', 'pAssW0r!')
+c = api.Client.auth('adelcha', 'pAssW0r!')
 
 info = c.info()
 print(info['name']) # Alain
@@ -11,5 +11,4 @@ notes_first_year = c.notes(inscriptions[0])
 
 c.note_detail(c.notes(c.inscriptions()[-1])[-1]) # Details of the last course of your last year
 
-c.gehol(datetime(2015, 05, 05, 0, 0, 0), datetime(2015, 05, 06, 0, 0, 0)) # All of your courses of the day
-
+c.gehol(datetime(2015, 5, 5, 0, 0, 0), datetime(2015, 5, 6, 0, 0, 0)) # All of your courses of the day

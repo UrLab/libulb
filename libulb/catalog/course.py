@@ -10,6 +10,12 @@ class Course:
 
         self._fill(infos)
 
+    def __repr__(self):
+        if self.credits:
+            return "<Course {}: {} ({} crédits)>".format(self.slug, self.name, self.credits)
+        else:
+            return "<Course {}: {}>".format(self.slug, self.name)
+
     @classmethod
     def get_from_slug(cls, slug, year):
         slug = slug.upper()
@@ -57,9 +63,11 @@ class Course:
             self.language = "french"
         elif "anglais" in language:
             self.language = "english"
+        elif "néerlandais" in language:
+            self.language = "dutch"
         else:
             if "Enseigné en" in language:
-                self.language = language.replace("Enseigné en", "")
+                self.language = language.replace("Enseigné en", "").strip()
             else:
                 self.language = None
 
@@ -89,7 +97,7 @@ class Course:
                     })
 
         if len(self.sections) != 0:
-            self.credits = self.sections[0]['credits']
+            self.credits = max(map(lambda x: x['credits'], self.sections))
         else:
             self.credits = None
 
