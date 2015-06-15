@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import print_function, unicode_literals
+
 import requests
 from bs4 import BeautifulSoup
 import re
