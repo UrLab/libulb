@@ -94,11 +94,9 @@ class Course:
         if self.note is None:
             return '.'*20
 
-        lower, upper = self.lower_note, self.upper_note
-        if round(lower) == round(upper):
-            lower, upper = int(floor(lower)), int(ceil(upper))
-        else:
-            lower, upper = int(round(lower)), int(round(upper))
+        lower, upper = int(round(self.lower_note)), int(round(self.upper_note))
+        if lower > 0:
+            lower -= 1
 
         res = ' '*int(round(lower))
         for i in range((lower), (upper)):
