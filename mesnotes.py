@@ -137,7 +137,10 @@ def print_notes(api_client, inscription):
             ects=ects, note=mu,
             lower_note=all_0,
             upper_note=all_20)
-        print Course.separator
+        if evaluated == courses:
+            print hilight(blue(Course.separator))
+        else:
+            print Course.separator
         print unicode(avg_course)
 
     passed = filter(lambda c: c.note and c.note >= 10, courses)
