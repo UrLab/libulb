@@ -1,11 +1,11 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 from libulb import Client
 from math import sqrt, floor, ceil
 from itertools import chain
 from datetime import datetime
 import config
-
-if not config.NETID or not config.PASSWD:
-    raise Exception("No NETID/PASSWD (edit or create local_config.py")
 
 class options:
     color = True
@@ -31,8 +31,11 @@ class Course:
     separator = options.sepcolumns.join((
         options.seplines*10, options.seplines*4, options.seplines*2, 
         options.seplines*20, options.seplines*52))
-    titles = options.columns.join(map(hilight, (
-        "Mnemonique", "Note", "Cr", "Histogramme".ljust(20), "Nom du cours")))
+
+    @classmethod
+    def titles(klass):
+        return options.columns.join(map(hilight, (
+            "Mnemonique", "Note", "Cr", "Histogramme".ljust(20), "Nom du cours")))
 
     def __init__(self, mnemonic, name, ects, note=None, lower_note=0, upper_note=None):
         self.mnemonic = mnemonic
@@ -117,7 +120,7 @@ def print_notes(api_client, inscription):
     
     print hilight("%s - %s (session %d)" % (
         inscription['area'], inscription['term_desc'], inscription['session_num']))
-    print Course.titles
+    print Course.titles()
     print Course.separator
     print '\n'.join(map(unicode, courses))
 
@@ -156,12 +159,34 @@ def print_notes(api_client, inscription):
     print
 
 
-def main():
-    session = Client.auth(config.NETID, config.PASSWD)
+def main(netid, passwd):
+    session = Client.auth(netid, passwd)
     this_year = datetime.now().year if datetime.now().month >= 9 else datetime.now().year-1
     this_year_str = '%d%d' % (this_year, (this_year+1)%100)
     for inscr in filter(lambda inscr: inscr['term_code'] == this_year_str, session.inscriptions()):
         print_notes(session, inscr)
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    from getpass import getpass
+
+    optparser = argparse.ArgumentParser(description=u"Points des cours à l'ULB")
+    optparser.add_argument(
+        "--netid", "-n", action='store',
+        type=str, dest='netid', default=config.NETID,
+        help=u"Affiche les points pour ce netid ('%s' par defaut)" % (config.NETID))
+    optparser.add_argument(
+        "--no-color", "-C", action='store_false',
+        dest='color', default=True,
+        help=u"N'affiche pas les résultats en couleur")
+    clargs = optparser.parse_args()
+
+    options.color = clargs.color
+    while not clargs.netid:
+        clargs.netid = raw_input("NetID ? ")
+
+    passwd = config.PASSWD
+    while not passwd:
+        passwd = getpass()
+
+    main(clargs.netid, passwd)
