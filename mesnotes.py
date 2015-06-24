@@ -185,7 +185,7 @@ if __name__ == "__main__":
     while not clargs.netid:
         clargs.netid = raw_input("NetID ? ")
 
-    passwd = "" if clargs.netid else config.PASSWD
+    passwd = "" if clargs.netid != config.NETID else config.PASSWD
     while not passwd:
         passwd = getpass()
 
