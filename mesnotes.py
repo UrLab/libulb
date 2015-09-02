@@ -2,12 +2,11 @@
 # coding: utf-8
 
 from libulb import Client
-from math import sqrt, floor, ceil
-from itertools import chain
 from datetime import datetime
 import config
 
-class options:
+
+class Options:
     color = True
     red = 10
     green = 12
@@ -15,8 +14,9 @@ class options:
     seplines = "-"
     columns = " | "
 
+
 def colorize_text(color, text):
-    if not options.color:
+    if not Options.color:
         return text
     return "\033[%dm%s\033[0m" % (color, text)
 
@@ -27,14 +27,15 @@ blue = lambda txt: colorize_text(34, txt)
 magenta = lambda txt: colorize_text(35, txt)
 hilight = lambda txt: colorize_text(1, txt)
 
+
 class Course:
-    separator = options.sepcolumns.join((
-        options.seplines*10, options.seplines*4, options.seplines*2, 
-        options.seplines*20, options.seplines*52))
+    separator = Options.sepcolumns.join((
+        Options.seplines*10, Options.seplines*4, Options.seplines*2,
+        Options.seplines*20, Options.seplines*52))
 
     @classmethod
-    def titles(klass):
-        return options.columns.join(map(hilight, (
+    def titles(cls):
+        return Options.columns.join(map(hilight, (
             "Mnemonique", "Note", "Cr", "Histogramme".ljust(20), "Nom du cours")))
 
     def __init__(self, mnemonic, name, ects, note=None, lower_note=0, upper_note=None):
@@ -46,17 +47,16 @@ class Course:
         self.upper_note = note if upper_note is None else upper_note
 
     def __unicode__(self):
-        ects_txt = blue("%2d" % int(self.ects))
-        return options.columns.join((
-            self.colorize_mnemonic(), 
-            self.colorize_note(), 
+        return Options.columns.join((
+            self.colorize_mnemonic(),
+            self.colorize_note(),
             self.colorize_ects(),
             self.bar(),
             self.name))
 
     @classmethod
-    def from_ulb_api(klass, api_dict):
-        return klass(
+    def from_ulb_api(cls, api_dict):
+        return cls(
             mnemonic=api_dict['mnemonique'],
             name=api_dict['course_title'],
             ects=int(api_dict['credits']),
@@ -77,9 +77,9 @@ class Course:
             return '----'
         n = round(self.note, 1)
         formatted = "%4s" % n
-        if n < options.red:
+        if n < Options.red:
             return red(formatted)
-        elif n < options.green:
+        elif n < Options.green:
             return yellow(formatted)
         else:
             return green(formatted)
@@ -105,9 +105,9 @@ class Course:
         for i in range((lower), (upper)):
             cur = hilight('*') if i+1 == round(self.note) else '*'
 
-            if i+1 < options.red:
+            if i+1 < Options.red:
                 res += red(cur)
-            elif i+1 < options.green:
+            elif i+1 < Options.green:
                 res += yellow(cur)
             else:
                 res += green(cur)
@@ -115,9 +115,10 @@ class Course:
         res += ' '*(20-int(round(upper)))
         return res
 
+
 def print_notes(api_client, inscription):
     courses = map(Course.from_ulb_api, api_client.notes(inscription))
-    
+
     print hilight("%s - %s (session %d)" % (
         inscription['area'], inscription['term_desc'], inscription['session_num']))
     print Course.titles()
@@ -181,7 +182,7 @@ if __name__ == "__main__":
         help=u"N'affiche pas les résultats en couleur")
     clargs = optparser.parse_args()
 
-    options.color = clargs.color
+    Options.color = clargs.color
     while not clargs.netid:
         clargs.netid = raw_input("NetID ? ")
 
