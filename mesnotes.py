@@ -162,7 +162,7 @@ def print_notes(api_client, inscription):
 
 def main(netid, passwd):
     session = Client.auth(netid, passwd)
-    this_year = datetime.now().year if datetime.now().month >= 9 else datetime.now().year-1
+    this_year = datetime.now().year if datetime.now().month >= 10 else datetime.now().year-1
     this_year_str = '%d%d' % (this_year, (this_year+1)%100)
     for inscr in filter(lambda inscr: inscr['term_code'] == this_year_str, session.inscriptions()):
         print_notes(session, inscr)
