@@ -160,11 +160,19 @@ def print_notes(api_client, inscription):
     print
 
 
-def main(netid, passwd):
+def main(netid, passwd, exam_session=None, year=None):
+    if year is None:
+        year = datetime.now().year if datetime.now().month >= 10 else datetime.now().year-1
+    this_year_str = '%d%d' % (year, (year+1) % 100)
+
+    this_year = lambda inscr: inscr['term_code'] == this_year_str
+    condition = this_year
+    if exam_session is not None:
+        this_session = lambda inscr: inscr['session_num'] == exam_session
+        condition = lambda inscr: this_year(inscr) and this_session(inscr)
+
     session = Client.auth(netid, passwd)
-    this_year = datetime.now().year if datetime.now().month >= 10 else datetime.now().year-1
-    this_year_str = '%d%d' % (this_year, (this_year+1)%100)
-    for inscr in filter(lambda inscr: inscr['term_code'] == this_year_str, session.inscriptions()):
+    for inscr in filter(condition, session.inscriptions()):
         print_notes(session, inscr)
 
 if __name__ == "__main__":
@@ -180,6 +188,14 @@ if __name__ == "__main__":
         "--no-color", "-C", action='store_false',
         dest='color', default=True,
         help=u"N'affiche pas les résultats en couleur")
+    optparser.add_argument(
+        "-s", "--session", action='store',
+        type=int, dest='session', default=None,
+        help=u"Affiche les points de cette session uniquement")
+    optparser.add_argument(
+        "-y", "--year", action='store',
+        type=int, dest='year', default=None,
+        help=u"Année à afficher (année du premier quadrimestre)")
     clargs = optparser.parse_args()
 
     Options.color = clargs.color
@@ -190,4 +206,4 @@ if __name__ == "__main__":
     while not passwd:
         passwd = getpass()
 
-    main(clargs.netid, passwd)
+    main(clargs.netid, passwd, clargs.session, clargs.year)
