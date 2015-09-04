@@ -118,9 +118,18 @@ class Course:
 
 def print_notes(api_client, inscription):
     courses = map(Course.from_ulb_api, api_client.notes(inscription))
+    passed = inscription.get('grade_annee_reussite', None)
+    if passed == 'Y':
+        passed_string = green(inscription['grade_annee_desc'])
+    elif passed == 'N':
+        passed_string = red(inscription['grade_annee_desc'])
+    else:
+        passed_string = u"en cours"
 
-    print hilight("%s - %s (session %d)" % (
-        inscription['area'], inscription['term_desc'], inscription['session_num']))
+
+    print hilight("%s - %s (session %d) - %s" % (
+        inscription['area'], inscription['term_desc'],
+        inscription['session_num'], passed_string))
     print Course.titles()
     print Course.separator
     print '\n'.join(map(unicode, courses))
