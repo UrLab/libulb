@@ -4,6 +4,7 @@ from __future__ import print_function, unicode_literals
 import requests
 from bs4 import BeautifulSoup
 import re
+import six
 
 
 class Course:
@@ -14,6 +15,9 @@ class Course:
         self._fill(infos)
 
     def __repr__(self):
+        return self.__unicode__().encode('utf-8') if six.PY2 else self.__unicode__()
+
+    def __unicode__(self):
         if self.credits:
             return "<Course {}: {} ({} crédits)>".format(self.slug, self.name, self.credits)
         else:
