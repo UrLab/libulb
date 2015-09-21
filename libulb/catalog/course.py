@@ -75,7 +75,7 @@ class Course:
                 self.language = None
 
         self.profs = []
-        prof_str = d.get("Titulaire(s)", None)
+        prof_str = d.get("Titulaire(s) * [y inclus le coordonnateur]", None)
         if not (prof_str is None or prof_str.strip() == ""):
             for prof in prof_str.split(','):
                 prof = prof.replace("(coordonnateur)", "")
@@ -86,7 +86,7 @@ class Course:
         self.requirements = d.get("Connaissances et compétences pré-requises", None)
 
         self.sections = []
-        sections_str = d.get("Programme d'études comprenant l'unité d'enseignement", None)
+        sections_str = d.get("Programme(s) d'études comprenant l'unité d'enseignement", None)
         # import ipdb; ipdb.set_trace()
         if sections_str is not None and sections_str.strip() != "":
             for section in sections_str.split("\n"):
