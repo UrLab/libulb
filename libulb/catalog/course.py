@@ -34,7 +34,7 @@ class Course:
         if not response.ok:
             raise Exception("Error with ulb")
 
-        soup = BeautifulSoup(response.text)
+        soup = BeautifulSoup(response.text, "html.parser")
 
         table = soup.find('table', 'bordertable')
         tr_list = table('tr')
