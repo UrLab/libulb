@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='libulb',
@@ -10,7 +10,7 @@ setup(
     author='Nikita Marchant',
     author_email='nikita.marchant@ulb.ac.be',
     license='BSD',
-    packages=['libulb'],
+    packages=find_packages(exclude="[examples]"),
     zip_safe=False,
     install_requires=[
         'requests',
