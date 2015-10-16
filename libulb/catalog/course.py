@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import six
+from libulb.tools import Slug
 
 
 class Course:
@@ -25,12 +26,9 @@ class Course:
 
     @classmethod
     def get_from_slug(cls, slug, year):
-        slug = slug.upper()
-        match = re.match(r'([A-Z]{4})-?([A-Z])-?([0-9]{2,4})', slug)
-        if not match:
-            raise ValueError("Invalid slug format")
+        slug = Slug.match_all(slug)
 
-        response = cls._query_ulb(year, match.group(1), match.group(2) + match.group(3))
+        response = cls._query_ulb(year, slug)
         if not response.ok:
             raise Exception("Error with ulb")
 
@@ -49,16 +47,16 @@ class Course:
             val = val.text.strip().strip("*").strip()
             infos[key] = val
 
-        slug = "{}-{}-{}".format(match.group(1), match.group(2), match.group(3)).lower()
+        slug = "{}-{}-{}".format(slug.domain, slug.faculty, slug.number).lower()
         return cls(slug, year, infos)
 
     @classmethod
-    def _query_ulb(cls, year, fac, num):
+    def _query_ulb(cls, year, slug):
         url = "http://banssbfr.ulb.ac.be/PROD_frFR/bzscrse.p_disp_course_detail"
         params = {
             'cat_term_in': year,
-            'subj_code_in': fac,
-            'crse_numb_in': num,
+            'subj_code_in': slug.domain.upper(),
+            'crse_numb_in': slug.faculty.upper() + slug.number.upper(),
         }
         return requests.get(url, params=params)
 
