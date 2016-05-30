@@ -176,9 +176,14 @@ def search_course(s, mnemo):
     if not match:
         raise ValueError("The mnemonic must be in the form 'info-f-303 or info-f-1001'")
     mnemo = "%s-%s%s" % match.groups()
-    page = s.get("http://uv.ulb.ac.be/course/search.php?search=%s" % mnemo)
 
-    divs = soup.find(class_="course-search-result-search").findAll(class_="info")
+    page = s.get("http://uv.ulb.ac.be/course/search.php?search=%s" % mnemo)
+    soup = BeautifulSoup(page.text, "html.parser")
+
+    results = soup.find(class_="course-search-result-search")
+    if not results:
+        return None
+    divs = results.findAll(class_="info")
 
     if len(divs) == 0:
         return None
