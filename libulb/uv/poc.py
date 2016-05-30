@@ -71,9 +71,16 @@ def _list_category_courses(s, category_id):
 def subscribe(s, course_id):
     course_page = s.get("http://uv.ulb.ac.be/course/view.php?id=%i" % course_id)
     if "enrol" in course_page.url:
+        if "Clef d'inscription" in course_page.text:
+            raise RuntimeError("This course needs a key, please enter it manualy")
         enrol_url = "http://uv.ulb.ac.be/enrol/index.php"
         soup = BeautifulSoup(course_page.text, "html.parser")
         form = soup.find("form", action=enrol_url)
+        if form is None:
+            if "Continuer" in course_page.text:
+                raise RuntimeError("You can not subscribe to this course")
+            else:
+                raise RuntimeError("Unknown content on this page, please file a bugreport")
         fields = form.findAll('input')
         payload = {x['name']: x['value'] for x in fields}
         s.post(enrol_url, data=payload)
@@ -102,3 +109,64 @@ def unsubscribe(s, course_id):
 def is_subscribed(s, course_id):
     course_page = s.get("http://uv.ulb.ac.be/course/view.php?id=%i" % course_id)
     return "enrol" not in course_page.url
+
+
+def list_courses(s):
+    categories = _list_categories(s)
+    courses = []
+
+    for cat in categories:
+        courses += _list_category_courses(s, cat['id'])
+
+    return courses
+
+
+def _is_file(a):
+    url = a["href"]
+    if url.startswith( "http://uv.ulb.ac.be/mod/resource/view.php?id="):
+        return True
+    if re.match(r'http://uv\.ulb\.ac\.be/pluginfile\.php/\d+/mod_folder/', url):
+        return True
+
+    return False
+
+def _chop_file(a):
+    name_tag = a.find(class_="fp-filename") or a.find(class_="instancename")
+    url = furl(a['href'])
+    url.args["forcedownload"] = 1
+    url.args["redirect"] = 1
+
+    name = name_tag.text.replace("_", " ")
+    return {
+        "name": name,
+        "url": url.url,
+    }
+
+def _get_folder_files(s, url, name):
+    page = s.get(url)
+    soup = BeautifulSoup(page.text, "html.parser")
+    tree = soup.find(class_="foldertree")
+    files = [_chop_file(a) for a in tree.findAll("a")]
+    for f in files:
+        f['dirname'] = name
+    return files
+
+def extract_files_url(s, course_id):
+    page = s.get("http://uv.ulb.ac.be/course/view.php?id=%i" % course_id)
+    soup = BeautifulSoup(page.text, "html.parser")
+    main = soup.find(id="region-main")
+
+    links = main.findAll("a")
+    is_folder = lambda x: x["href"].startswith("http://uv.ulb.ac.be/mod/folder/view.php?id=")
+    chop_folder = lambda x: {
+        'url': x['href'],
+        'name': list(x.find(class_="instancename").strings)[0]
+    }
+
+    folders = [chop_folder(a) for a in filter(is_folder, links)]
+    files = [_chop_file(a) for a in filter(_is_file, links)]
+
+    folder_files = [_get_folder_files(s, f["url"], f["name"]) for f in folders]
+
+    return files + folder_files
+
