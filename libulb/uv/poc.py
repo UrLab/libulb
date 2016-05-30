@@ -5,6 +5,8 @@ import re
 s = requests.Session()
 s.post("https://uv.ulb.ac.be/login/index.php", data=payload)
 
+
+# List categories
 categories_html = s.get("http://uv.ulb.ac.be/course/")
 soup = BeautifulSoup(categories_html.text, "html.parser")
 dropdowns = soup.findAll(class_="info")
@@ -12,6 +14,7 @@ dropdowns = soup.findAll(class_="info")
 categories = [(cat.find('a')['href'], cat.find('a').text) for cat in dropdowns]
 
 
+# List courses of categories
 section = s.get("http://uv.ulb.ac.be/course/index.php?categoryid=68&perpage=5000&browse=courses")
 soup = BeautifulSoup(section.text, "html.parser")
 
@@ -41,6 +44,7 @@ def chop_course(course):
 courses = [chop_course(c) for c in soup.findAll(class_="coursebox")]
 
 
+# Enrol
 course_page = s.get("http://uv.ulb.ac.be/course/view.php?id=51823")
 if "enrol" in course_page.url:
     enrol_url = "http://uv.ulb.ac.be/enrol/index.php"
@@ -53,12 +57,18 @@ else:
     print("Alredy subscribed")
 
 
+#Unenrol
 course_page = s.get("http://uv.ulb.ac.be/course/view.php?id=51823")
 if "enrol" not in course_page.url:
     soup = BeautifulSoup(course_page.text, "html.parser")
-    form = soup.find("form", action=enrol_url)
+    link = soup.find("a", href="http://uv.ulb.ac.be/enrol/self/unenrolself.php?enrolid=237082")
+
+    unrol_page = s.get(link['href'])
+    unrol_url = "http://uv.ulb.ac.be/enrol/self/unenrolself.php"
+    soup = BeautifulSoup(unrol_page.text, "html.parser")
+    form = soup.find("form", action=unrol_url)
     fields = form.findAll('input')
-    payload = {x['name']: x['value'] for x in fields}
-    s.post(enrol_url, data=payload)
+    payload = {x.get('name',""): x['value'] for x in fields}
+    s.post(unrol_url, data=payload)
 else:
     print("Alredy unsubscribed")
