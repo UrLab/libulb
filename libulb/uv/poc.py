@@ -170,3 +170,19 @@ def extract_files_url(s, course_id):
 
     return files + folder_files
 
+
+def search_course(s, mnemo):
+    match = re.match(r"(\w{3,4})-(\w)-(\d{3,4})", mnemo.lower())
+    if not match:
+        raise ValueError("The mnemonic must be in the form 'info-f-303 or info-f-1001'")
+    mnemo = "%s-%s%s" % match.groups()
+    page = s.get("http://uv.ulb.ac.be/course/search.php?search=%s" % mnemo)
+
+    divs = soup.find(class_="course-search-result-search").findAll(class_="info")
+
+    if len(divs) == 0:
+        return None
+    else:
+        d = divs[-1]
+
+    return _chop_course(d)
