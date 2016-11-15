@@ -1,7 +1,7 @@
 .. image:: https://img.shields.io/travis/C4ptainCrunch/libulb.svg
    :target: https://travis-ci.org/C4ptainCrunch/libulb
 
-.. image:: https://img.shields.io/pypi/C4ptainCrunch/libulb.svg
+.. image:: https://img.shields.io/pypi/v/libulb.svg
    :target: https://pypi.python.org/pypi/libulb
 
 
