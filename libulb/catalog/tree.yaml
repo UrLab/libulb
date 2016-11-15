@@ -106,90 +106,90 @@ Sciences:
                     - info-y-528
                 - Internship:
                     - tran-f-501
-            SECU:
-                - Master en cybersécurité, à finalité Conception et Analyse de Systèmes:
-                    - Bloc 1:
-                        - elec-h-504
-                        - info-f-307
-                        - info-f-309
-                        - info-f-405
-                        - info-f-514
-                        - info-y-111
-                        - info-y-112
-                        - info-y-113
-                        - info-y-114
-                        - info-y-115
-                        - Options:
-                            - elec-h-417
-                            - info-h-415
-                            - info-f-403
-                            - info-f-408
-                            - info-h-410
-                            - info-h-413
-                            - info-h-509
-                            - info-h-419
-                            - info-f-424
-                            - info-f-524
-                            - info-h-514
-                            - elec-h-473
-                            - info-f-412
-                            - info-f-410
-                            - info-f-403
-                            - info-f-412
-                            - info-f-422
-                            - info-f-404
-                            - info-f-408
-                    - Bloc 2:
-                        - elec-h-423
-                        - info-y-116
-                        - memo-y-117
-                        - Cours spécifiques:
-                            - info-f-531
-                            - info-y-118
-                            - info-y-119
-                            - info-y-120
-                            - info-y-121
-                - Master en cybersécurité, à finalité Stratégies en entreprise:
-                    - Bloc 1:
-                        - elec-h-504
-                        - info-f-307
-                        - info-f-309
-                        - info-f-405
-                        - info-f-514
-                        - info-y-111
-                        - info-y-112
-                        - info-y-113
-                        - info-y-114
-                        - info-y-115
-                        - Options:
-                            - elec-h-417
-                            - info-h-415
-                            - info-f-403
-                            - info-f-408
-                            - info-h-410
-                            - info-h-413
-                            - info-h-509
-                            - info-h-419
-                            - info-f-424
-                            - info-f-524
-                            - info-h-514
-                            - elec-h-473
-                            - info-f-412
-                            - info-f-410
-                            - info-f-403
-                            - info-f-412
-                            - info-f-422
-                            - info-f-404
-                            - info-f-408
-                    - Bloc 2:
-                        - elec-h-423
-                        - info-y-116
-                        - memo-y-117
-                        - Cours spécifiques:
-                            - info-y-122
-                            - info-y-123
-                            - info-y-124
-                            - info-y-125
+        Master en Cyber Sécurité:
+            - Conception et Analyse de Systèmes:
+                - Bloc 1:
+                    - elec-h-504
+                    - info-f-307
+                    - info-f-309
+                    - info-f-405
+                    - info-f-514
+                    - info-y-111
+                    - info-y-112
+                    - info-y-113
+                    - info-y-114
+                    - info-y-115
+                    - Options:
+                        - elec-h-417
+                        - info-h-415
+                        - info-f-403
+                        - info-f-408
+                        - info-h-410
+                        - info-h-413
+                        - info-h-509
+                        - info-h-419
+                        - info-f-424
+                        - info-f-524
+                        - info-h-514
+                        - elec-h-473
+                        - info-f-412
+                        - info-f-410
+                        - info-f-403
+                        - info-f-412
+                        - info-f-422
+                        - info-f-404
+                        - info-f-408
+                - Bloc 2:
+                    - elec-h-423
+                    - info-y-116
+                    - memo-y-117
+                    - Cours spécifiques:
+                        - info-f-531
+                        - info-y-118
+                        - info-y-119
+                        - info-y-120
+                        - info-y-121
+            - Stratégies en entreprise:
+                - Bloc 1:
+                    - elec-h-504
+                    - info-f-307
+                    - info-f-309
+                    - info-f-405
+                    - info-f-514
+                    - info-y-111
+                    - info-y-112
+                    - info-y-113
+                    - info-y-114
+                    - info-y-115
+                    - Options:
+                        - elec-h-417
+                        - info-h-415
+                        - info-f-403
+                        - info-f-408
+                        - info-h-410
+                        - info-h-413
+                        - info-h-509
+                        - info-h-419
+                        - info-f-424
+                        - info-f-524
+                        - info-h-514
+                        - elec-h-473
+                        - info-f-412
+                        - info-f-410
+                        - info-f-403
+                        - info-f-412
+                        - info-f-422
+                        - info-f-404
+                        - info-f-408
+                - Bloc 2:
+                    - elec-h-423
+                    - info-y-116
+                    - memo-y-117
+                    - Cours spécifiques:
+                        - info-y-122
+                        - info-y-123
+                        - info-y-124
+                        - info-y-125
     Physique:
         Bachelier:
             Bloc 1:
