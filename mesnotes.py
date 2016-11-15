@@ -4,6 +4,7 @@
 from libulb.smileye_app.api import Client
 from datetime import datetime
 import config
+import json
 
 
 class Options:
@@ -126,6 +127,11 @@ def print_notes(api_client, inscription):
     else:
         passed_string = u"en cours"
 
+    for c in courses:
+        if c.mnemonic in know.keys():
+            c.note = know[c.mnemonic]
+            c.upper_note = know[c.mnemonic]
+
 
     print hilight("%s - %s (session %d) - %s" % (
         inscription['area'], inscription['term_desc'],
@@ -205,6 +211,11 @@ if __name__ == "__main__":
         "-y", "--year", action='store',
         type=int, dest='year', default=None,
         help=u"Année à afficher (année du premier quadrimestre)")
+    optparser.add_argument(
+            "--know", "-k",
+            dest='know', type=json.loads,
+            help=u"Cours dont la note est connue en json (ex: '{\"INFO-F-308\": 18, \"INFO-F-309\":15}')"
+            )
     clargs = optparser.parse_args()
 
     Options.color = clargs.color
@@ -214,5 +225,7 @@ if __name__ == "__main__":
     passwd = "" if clargs.netid != config.NETID else config.PASSWD
     while not passwd:
         passwd = getpass()
+
+    know = clargs.know if clargs.know is not None else {}
 
     main(clargs.netid, passwd, clargs.session, clargs.year)
