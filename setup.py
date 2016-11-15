@@ -18,5 +18,6 @@ setup(
         'six',
         'PyYaml',
         'html5lib',
+        'furl',
     ],
 )
