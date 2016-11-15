@@ -1,4 +1,0 @@
-PyYaml
-requests
-BeautifulSoup4
-html5lib

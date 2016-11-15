@@ -7,9 +7,6 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 
-YEAR = "201617"
-URL = "http://banssbfr.ulb.ac.be/PROD_frFR/bzscrse.p_disp_prog_detail?term_in=" + YEAR + "&prog_in={}&lang=FRENCH"
-
 
 def handle_node(node):
     name = getattr(node, "name", None)
@@ -50,10 +47,11 @@ def handle_node(node):
 
     return children
 
+URL = "http://banssbfr.ulb.ac.be/PROD_frFR/bzscrse.p_disp_prog_detail?term_in={}&prog_in={}&lang=FRENCH"
 
-if __name__ == '__main__':
-    section = sys.argv[1]
-    url = URL.format(section)
+
+def get_approximate_tree(section_slug, year="201617"):
+    url = URL.format(year, section)
     r = requests.get(url)
 
     soup = BeautifulSoup(r.text, "html5lib")
@@ -65,10 +63,28 @@ if __name__ == '__main__':
         data = handle_node(table)
         output.extend(data)
 
-    print yaml.safe_dump(
-        output,
+    return output
+
+if __name__ == '__main__':
+    if len(sys.argv) not in (2, 3):
+        print("Usage: %s section-slug [year]\nExample: %s ba-info 201617" % (sys.argv[0], sys.argv[0]))
+        exit(-1)
+    section = sys.argv[1]
+
+    if len(sys.argv) == 3:
+        year = sys.argv[2]
+        tree = get_approximate_tree(section, year)
+    else:
+        tree = get_approximate_tree(section)
+
+    if len(tree) == 0:
+        print("No courses found for section '%s'" % section)
+        exit(-1)
+
+    print(yaml.safe_dump(
+        tree,
         default_flow_style=False,
         width=500,
         indent=4,
         allow_unicode=True
-    )
+    ))
