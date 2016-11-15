@@ -7,13 +7,14 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 
-URL = "http://banssbfr.ulb.ac.be/PROD_frFR/bzscrse.p_disp_prog_detail?term_in=201516&prog_in={}&lang=FRENCH"
+YEAR = "201617"
+URL = "http://banssbfr.ulb.ac.be/PROD_frFR/bzscrse.p_disp_prog_detail?term_in=" + YEAR + "&prog_in={}&lang=FRENCH"
 
 
 def handle_node(node):
     name = getattr(node, "name", None)
 
-    if name is None: # we have text, not a tag
+    if name is None:  # we have text, not a tag
         txt = node.strip()
         mnemo = re.search(r'([A-Z]{4}-[A-Z])([0-9]{3,4})', txt)
         if mnemo:
@@ -36,13 +37,19 @@ def handle_node(node):
     children = []
     for child in node.children:
         child = handle_node(child)
-        if child:
+        if isinstance(child, list):
+            if len(child) > 0 and isinstance(child[0], list):
+                children.extend(child)
+            elif child:
+                children.append(child)
+        elif child:
             children.append(child)
 
     while len(children) == 1:
         children = children[0]
 
     return children
+
 
 if __name__ == '__main__':
     section = sys.argv[1]
@@ -56,12 +63,12 @@ if __name__ == '__main__':
     output = []
     for table in tables:
         data = handle_node(table)
-        output.append(data)
+        output.extend(data)
 
-    print(yaml.safe_dump(
+    print yaml.safe_dump(
         output,
         default_flow_style=False,
         width=500,
         indent=4,
         allow_unicode=True
-    ))
+    )
