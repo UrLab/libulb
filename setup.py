@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='libulb',
-    version='0.1.dev',
+    version='0.1',
     description='Interact with ULB in python',
     url='https://github.com/C4ptainCrunch/libulb',
     author='Nikita Marchant',
