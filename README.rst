@@ -10,7 +10,7 @@ Install
 
 ::
 
-    pip install git+https://github.com/C4ptainCrunch/libulb.git
+    pip install libulb
 
 Example
 =======
