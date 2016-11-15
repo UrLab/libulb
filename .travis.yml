@@ -1,17 +1,22 @@
 sudo: false
+
 language: python
 python:
-- '3.4'
+  - '3.4'
+
 cache:
   apt: true
   directories:
-  - "$HOME/.cache/pip"
-before_script:
-  - pip install -U pip setuptools pip
+    - "$HOME/.cache/pip"
+
+install:
+  - pip install -U setuptools pip
   - pip install -r requirements-dev.txt
   - pip install -e .
+
 script:
-- py.test
+  - py.test
+
 deploy:
   provider: pypi
   user: C4ptainCrunch
