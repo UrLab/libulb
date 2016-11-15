@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='libulb',
-    version='0.1',
+    version='0.1.1dev',
     description='Interact with ULB in python',
     url='https://github.com/C4ptainCrunch/libulb',
     author='Nikita Marchant',
@@ -24,5 +24,16 @@ setup(
             'make-course-tree=libulb.catalog.extractor:main',
             'mes-notes-ulb=libulb.smileye_app.mesnotes:command',
         ],
-    }
+    },
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: BSD License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+
+    ],
 )
