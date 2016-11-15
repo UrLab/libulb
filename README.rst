@@ -1,3 +1,13 @@
+.. image:: https://img.shields.io/travis/C4ptainCrunch/libulb.svg
+   :target: https://travis-ci.org/C4ptainCrunch/libulb
+
+.. image:: https://img.shields.io/pypi/C4ptainCrunch/libulb.svg
+   :target: https://pypi.python.org/pypi/libulb
+
+
+.. image:: https://img.shields.io/github/license/C4ptainCrunch/libulb.svg
+
+
 libulb
 ======
 

@@ -7,7 +7,7 @@ with open("README.rst", 'r') as fd:
 
 setup(
     name='libulb',
-    version='0.1.3',
+    version='0.1.4.dev',
     description='Interact with ULB in python',
     url='https://github.com/C4ptainCrunch/libulb',
     author='Nikita Marchant',
