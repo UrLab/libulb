@@ -89,7 +89,3 @@ def main():
         indent=4,
         allow_unicode=True
     ))
-
-
-if __name__ == '__main__':
-    main()

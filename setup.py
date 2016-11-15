@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='libulb',
@@ -10,7 +10,6 @@ setup(
     author='Nikita Marchant',
     author_email='nikita.marchant@ulb.ac.be',
     license='BSD',
-    packages=find_packages(exclude="[examples]"),
     zip_safe=False,
     install_requires=[
         'requests',
@@ -20,4 +19,7 @@ setup(
         'html5lib',
         'furl',
     ],
+    entry_points={
+        'console_scripts': ['make-course-tree=libulb.catalog.extractor:main'],
+    }
 )
