@@ -1,0 +1,6 @@
+include *.py
+include *.txt
+include LICENSE
+recursive-include libulb *.py
+recursive-include libulb *.yaml
+recursive-include tests *.py
