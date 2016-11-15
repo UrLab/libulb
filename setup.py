@@ -20,6 +20,9 @@ setup(
         'furl',
     ],
     entry_points={
-        'console_scripts': ['make-course-tree=libulb.catalog.extractor:main'],
+        'console_scripts': [
+            'make-course-tree=libulb.catalog.extractor:main',
+            'mes-notes-ulb=libulb.smileye_app.mesnotes:command',
+        ],
     }
 )

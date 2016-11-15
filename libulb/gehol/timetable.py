@@ -1,4 +1,3 @@
-import requests
 from bs4 import BeautifulSoup
 import re
 from libulb.tools import Slug
@@ -54,13 +53,13 @@ def get_events_for_week(session, week, *slugs):
     if len(slugs) > 200:
         raise ValueError("Too much slugs. GeHoL can't handle that much (max 200)")
 
-    BASE_URL = "http://gehol.ulb.ac.be/gehol/Vue/HoraireCours.php?semaine_unif={}&cours="
+    BASE_URL = "http://gehol.ulb.ac.be/gehol/Vue/HoraireCours.php?semaine_unif={}&cours=" # NOQA
     url = BASE_URL.format(week)
     gehol_slugs = map(lambda x: x.gehol, slugs)
     url = BASE_URL + '-'.join(gehol_slugs)
 
     txt = session.get(url).text
-    soup = BeautifulSoup(txt)
+    soup = BeautifulSoup(txt, 'html5lib')
 
     # When a course is not given on a week or quadri, gehol redirects you internaly
     # to the current week. We want to avoid that
@@ -79,11 +78,11 @@ def get_events_for_week(session, week, *slugs):
 
 def get_events(session, *slugs):
     weeks = [
-        "114", # Premier quadrimestre,
-        "1720", # session de javier
-        "2136", # 2ème quadrimestre
-        "3641", # session de juin
-        "4852", # 2ème session
+        "114",  # Premier quadrimestre,
+        "1720",  # session de javier
+        "2136",  # 2ème quadrimestre
+        "3641",  # session de juin
+        "4852",  # 2ème session
     ]
 
     periods = map(lambda x: get_events_for_week(session, x, *slugs), weeks)
