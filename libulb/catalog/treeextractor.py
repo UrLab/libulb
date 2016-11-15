@@ -51,7 +51,7 @@ URL = "http://banssbfr.ulb.ac.be/PROD_frFR/bzscrse.p_disp_prog_detail?term_in={}
 
 
 def get_approximate_tree(section_slug, year="201617"):
-    url = URL.format(year, section)
+    url = URL.format(year, section_slug)
     r = requests.get(url)
 
     soup = BeautifulSoup(r.text, "html5lib")
@@ -65,7 +65,8 @@ def get_approximate_tree(section_slug, year="201617"):
 
     return output
 
-if __name__ == '__main__':
+
+def main():
     if len(sys.argv) not in (2, 3):
         print("Usage: %s section-slug [year]\nExample: %s ba-info 201617" % (sys.argv[0], sys.argv[0]))
         exit(-1)
@@ -88,3 +89,7 @@ if __name__ == '__main__':
         indent=4,
         allow_unicode=True
     ))
+
+
+if __name__ == '__main__':
+    main()
