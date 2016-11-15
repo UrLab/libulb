@@ -16,5 +16,7 @@ setup(
         'requests',
         'BeautifulSoup4',
         'six',
+        'PyYaml',
+        'html5lib',
     ],
 )

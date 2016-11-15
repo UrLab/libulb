@@ -50,7 +50,7 @@ def prettify_event(course):
     return course
 
 
-def get_events_for_week(week, *slugs):
+def get_events_for_week(session, week, *slugs):
     if len(slugs) > 200:
         raise ValueError("Too much slugs. GeHoL can't handle that much (max 200)")
 
@@ -59,7 +59,7 @@ def get_events_for_week(week, *slugs):
     gehol_slugs = map(lambda x: x.gehol, slugs)
     url = BASE_URL + '-'.join(gehol_slugs)
 
-    txt = requests.get(url).text
+    txt = session.get(url).text
     soup = BeautifulSoup(txt)
 
     # When a course is not given on a week or quadri, gehol redirects you internaly
@@ -77,6 +77,14 @@ def get_events_for_week(week, *slugs):
     return list(events)
 
 
-def get_events(*slugs):
-    # Get the 1st quadri (weeks 1-14) and second (21-35)
-    return get_events_for_week("114", *slugs) + get_events_for_week("2135", *slugs)
+def get_events(session, *slugs):
+    weeks = [
+        "114", # Premier quadrimestre,
+        "1720", # session de javier
+        "2136", # 2ème quadrimestre
+        "3641", # session de juin
+        "4852", # 2ème session
+    ]
+
+    periods = map(lambda x: get_events_for_week(session, x, *slugs), weeks)
+    return [slot for period in periods for slot in period]
