@@ -2,9 +2,12 @@
 
 from setuptools import setup
 
+with open("README.rst", 'r') as fd:
+    readme = fd.read()
+
 setup(
     name='libulb',
-    version='0.1.1dev',
+    version='0.1.1',
     description='Interact with ULB in python',
     url='https://github.com/C4ptainCrunch/libulb',
     author='Nikita Marchant',
@@ -36,4 +39,5 @@ setup(
         'Programming Language :: Python :: 3.5',
 
     ],
+    long_description=readme,
 )

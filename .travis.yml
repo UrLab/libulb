@@ -1,0 +1,18 @@
+sudo: false
+language: python
+python:
+- '3.4'
+cache:
+  apt: true
+  directories:
+  - "$HOME/.cache/pip"
+before_script:
+- pip install -r requirements-dev.txt
+script:
+- py.test
+deploy:
+  provider: pypi
+  user: C4ptainCrunch
+  distributions: sdist bdist_wheel
+  password:
+    secure: Zd5t7UTTHAXx+GMb+XNSIBn+py84UP9pjvejtdHT3/xj3I2pJgrUXVp5MCL3qQadCxH9sDPK36OnR7F/KQqPLIi7U6q/CWGBnf4RvmkGEATtpOrv7zY35T8YkTvU+ZCjXYoyiG7JI5PZXCM6waTKNgsV99N293X5jLni1463nTvsfYVM1xuFb3ZutPnOU1N5+Jf+eFCBwm9s3qw42uPI7AWWgvuHPgcmbgcYSC6KvfM+ygnhp9IlhQ9LIIDTuV9alJcrUfm8ISPFAntuoqD/BzF/iSWyRbYX+tDqUCF5K7XyNOF7aorgSXLd28O5H/03YxhiyWV0qRuYr797XYtpTtNdxHy4ac3p67Hq+RmIByAMO5Iy0pODlZ+V5oQM28xo6GH39MS9iJfjSbgDjNdJ4Y9OBvqeRXppNViLaxiABIAPVazNw8ilcF3TbvMT0I2tUuLStMQh0+rJPoMJKl6kQ3Ui+HsTBAm9TRLV8tm/iYjpuc0+A7ky6AhRj6Y962tW+7jCzIOd3OyM89+3CSPu8k7qQl/IAqo6mkGtlsRyOkk0REbnC6+RqR48RktTA9l5yBs/oNo+/4nENKwO1cvRayWAbMVmW3a/K50LwA6D0mySlbq3eliILVEi7Zbqyii05zhJcY7FLsZyObcmTot7hlMGzPx9jImMLiZX3jtvt1s=
