@@ -7,7 +7,8 @@ cache:
   directories:
   - "$HOME/.cache/pip"
 before_script:
-- pip install -r requirements-dev.txt
+  - pip install -r requirements-dev.txt
+  - pip install -e .
 script:
 - py.test
 deploy:

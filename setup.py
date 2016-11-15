@@ -7,13 +7,15 @@ with open("README.rst", 'r') as fd:
 
 setup(
     name='libulb',
-    version='0.1.1',
+    version='0.1.2',
     description='Interact with ULB in python',
     url='https://github.com/C4ptainCrunch/libulb',
     author='Nikita Marchant',
     author_email='nikita.marchant@ulb.ac.be',
     license='BSD',
     zip_safe=False,
+    packages=['libulb'],
+    include_package_data=True,
     install_requires=[
         'requests',
         'BeautifulSoup4',
