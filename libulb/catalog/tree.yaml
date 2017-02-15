@@ -1756,43 +1756,94 @@ Médecine:
         - bmol-g-1101
         - chim-g-1101
         - math-g-1102
-        - medi-g-1102
-        - medi-g-1203
-        - morf-g-1102
+        - medi-g-11021
+        - medi-g-11022
+        - medi-g-12031
+        - medi-g-12032
+        - morf-g-11021
+        - morf-g-11022
+        - morf-g-11023
         - phys-g-1102
-        - sapu-g-1201
-        - tran-g-1102
+        - sapu-g-1203
+        - sapu-g-1204
+        - tran-g-11021
+        - tran-g-11022
+        - tran-g-11023
     Bloc 2:
         - biol-g-2201
-        - bmol-g-2204
+        - bmol-g-22041
+        - bmol-g-22042
         - bmol-g-2207
-        - medi-g-2204
+        - medi-g-22041
+        - medi-g-22042
         - medi-g-2207
         - morf-g-2204
         - morf-g-2205
         - morf-g-2206
         - morf-g-2208
-        - phar-g-2000
+        - phar-g-20001
+        - phar-g-20002
     Bloc 3:
         - medi-g-3310
-        - medi-g-3311
+        - medi-g-33111
+        - medi-g-33112
+        - medi-g-33113
+        - medi-g-33114
         - medi-g-3405
         - medi-g-3411
-        - medi-g-3420
+        - medi-g-34201
+        - medi-g-34202
         - medi-g-3422
-        - medi-g-3605
+        - medi-g-36051
+        - medi-g-36052
+        - medi-g-36053
+        - medi-g-36054
+        - medi-g-36055
+        - medi-g-36056
         - morf-g-3304
-        - morf-g-3305
+        - morf-g-33051
+        - morf-g-33052
         - morf-g-3306
         - morf-g-3421
     Bloc 4:
-        - medi-g-4060
-        - medi-g-4070
+        - medi-g-40601
+        - medi-g-40602
+        - medi-g-40603
+        - medi-g-40701
+        - medi-g-40702
         - medi-g-4080
-        - medi-g-4090
-        - medi-g-4100
+        - medi-g-40901
+        - medi-g-40902
+        - medi-g-41001
+        - medi-g-41002
         - medi-g-4110
-        - medi-g-4120
-        - medi-g-4130
-        - medi-g-4140
+        - medi-g-41201
+        - medi-g-41202
+        - medi-g-41203
+        - medi-g-41301
+        - medi-g-41302
+        - medi-g-41401
+        - medi-g-41402
+        - medi-g-41403
         - medi-g-4150
+    Bloc 5:
+        - medi-g55101
+        - medi-g55102
+        - medi-g55301
+        - medi-g55302
+        - medi-g5550
+        - medi-g55601
+        - medi-g55602
+        - medi-g55603
+        - medi-g55701
+        - medi-g55702
+        - medi-g5580
+        - medi-g5590
+        - medi-g5610
+        - medi-g5620
+        - medi-g5630
+        - medi-g5640
+    Bloc 6:
+        - medi-g6630
+        - medi-g6640
+        - medi-g6650
