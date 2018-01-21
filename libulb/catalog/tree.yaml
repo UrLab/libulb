@@ -1847,3 +1847,110 @@ Médecine:
         - medi-g6630
         - medi-g6640
         - medi-g6650
+Solvay:
+    Gestion:
+        Bloc 1:
+            - chim-s-101
+            - econ-s-1002
+            - econ-s-1003
+            - geog-s-101
+            - gest-s-101
+            - hist-s-101
+            - math-s-102
+            - phys-s-1001
+            - stat-s-102
+            - Langues:
+                - lang-s-1002
+                - lang-s-1001
+        Bloc 2:
+            - chim-s-201
+            - droi-s-2001
+            - econ-s-203
+            - gest-s-2001
+            - gest-s-2002
+            - info-s-2001
+            - math-s-202
+            - phys-s-201
+            - stat-s-202
+            - Langues:
+                - lang-s-202
+                - lang-s-212
+                - lang-s-220
+        Bloc 3:
+            - droi-s-3001
+            - droi-s-3002
+            - gest-s-3001
+            - gest-s-301
+            - gest-s-303
+            - gest-s-305
+            - stat-s-308
+            - Langues:
+                - lang-s-302
+                - lang-s-312
+                - lang-s-320
+            - Mineure Gestion:
+                - gest-s-204
+                - gest-s-3002
+                - gest-s-307
+            - Mineure Economie:
+                - econ-s-201
+                - econ-s-202
+                - econ-s-3002
+    Sciences Economiques:
+        Bloc 1:
+            - droi-s-1001
+            - econ-s-1001
+            - geog-s-101
+            - gest-s-101
+            - hist-s-101
+            - math-s-101
+            - soca-s-1001
+            - stat-s-101
+            - Langues:
+                - lang-s-1002
+                - lang-s-1001
+        Bloc 2:
+            - droi-s-201
+            - econ-s-2001
+            - econ-s-2002
+            - econ-s-201
+            - econ-s-202
+            - econ-s-203
+            - gest-s-2001
+            - math-s-201
+            - stat-s-202
+            - Langues:
+                - lang-s-201
+                - lang-s-211
+                - lang-s-220
+        Bloc 3:
+            - econ-s-3001
+            - econ-s-3002
+            - econ-s-301
+            - gest-s-302
+            - info-s-302
+            - stat-s-301
+            - Séminaires:
+                - econ-s-304
+                - econ-s-305
+                - econ-s-306
+                - econ-s-312
+                - econ-s-319
+                - econ-s-420
+                - econ-s-464
+            - Langues:
+                - lang-s-301
+                - lang-s-311
+                - lang-s-320
+            - Mineure Analyse:
+                - econ-s-303
+                - stat-d-307
+                - stat-s-302
+            - Mineure Ingénieur de Gestion:
+                - chim-s-201
+                - gest-s-305
+                - phys-s-201
+            - Mineure Economie de Gestion:
+                - gest-s-305
+                - gest-s-445
+                - stat-s-302
