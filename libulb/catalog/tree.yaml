@@ -2146,3 +2146,44 @@ Droit:
             - droi-c-3177
             - droi-c-3178
             - germ-y-3170
+Motricité:
+    Kinésithérapie:
+        Bloc 1:
+            - bime-i-101
+            - bime-i-1091
+            - biol-i-101
+            - biol-i-102
+            - chim-i-1051
+            - kine-i-107
+            - kine-i-108
+            - kine-i-109
+            - phys-i-1031
+        Bloc 2:
+            - bime-i-2172
+            - bime-i-2182
+            - bime-i-2192
+            - bime-i-2212
+            - bime-i-2232
+            - bime-i-2242
+            - kine-i-202
+            - kine-i-2072
+            - phys-i-2032
+            - psyc-i-2032
+        Bloc 3:
+            - bime-i-3133
+            - bime-i-3163
+            - kine-i-3053
+            - kine-i-3063
+            - kine-i-3073
+            - kine-i-3083
+            - kine-i-3093
+            - kine-i-3103
+            - psyc-i-3053
+        Bloc 4:
+            - bime-i-4254
+            - bime-i-4264
+            - kine-i-402
+            - kine-i-405
+            - kine-i-406
+            - medi-i-4044
+            - memo-i-401
