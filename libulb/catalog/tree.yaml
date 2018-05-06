@@ -2102,6 +2102,75 @@ Solvay:
                 - lang-b-908
                 - lang-b-909
                 - lang-b-910
+    Research Master in Economics:
+        Bloc 1:
+            - econ-s-427
+            - econ-s-428
+            - econ-s-429
+            - econ-s-430
+            - econ-s-431
+            - econ-s-504
+            - econ-s-510
+            - math-s-400
+            - math-s-401
+        Bloc 2:
+            - econ-s-522
+            - memo-s-522
+            - Advanced methods:
+                - econ-s-460
+                - econ-s-461
+                - econ-s-513
+                - econ-s-519
+                - econ-s-520
+                - econ-s-521
+                - stat-f-404
+                - stat-f-405
+                - stat-f-408
+                - stat-f-423
+                - stat-f-507
+            - Topics in economics:
+                - econ-s-432
+                - econ-s-451
+                - econ-s-452
+                - econ-s-453
+                - econ-s-455
+                - econ-s-529
+    Research Master in Economics and Statistics:
+        Bloc 1:
+            - econ-s-427
+            - econ-s-428
+            - econ-s-429
+            - econ-s-430
+            - econ-s-431
+            - econ-s-510
+            - stat-f-404
+            - stat-f-405
+            - stat-f-407
+        Bloc 2:
+            - econ-s-504
+            - econ-s-522
+            - memo-s-522
+            - Economics:
+                - econ-s-417
+                - econ-s-432
+                - econ-s-451
+                - econ-s-452
+                - econ-s-453
+                - econ-s-460
+                - econ-s-461
+                - econ-s-513
+                - econ-s-519
+                - econ-s-520
+                - econ-s-521
+            - Statistics:
+                - actu-f-402
+                - info-f-422
+                - stat-f-408
+                - stat-f-418
+                - stat-f-420
+                - stat-f-421
+                - stat-f-423
+                - stat-f-507
 Droit:
     Bloc 1:
         - droi-c-1001
