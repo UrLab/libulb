@@ -1490,6 +1490,35 @@ Sciences:
                 - ethi-f-1001
                 - hist-f-1001
                 - phys-f-105
+    Sciences et gestion du tourisme:
+        Bloc 1:
+            - tour-f-422
+            - tour-f-423
+            - tour-f-424
+            - tour-f-425
+            - tour-f-401
+            - tour-f-407
+            - tour-f-408
+            - tour-f-414
+            - tour-f-415
+            - tour-f-419
+            - tour-f-426
+            - Option:
+                - comm-b-421
+                - envi-f-403
+                - envi-f-452
+                - geog-f-416
+                - haar-b-325
+                - soca-d-461
+        Bloc 2:
+            - memo-f-528
+            - tour-f-500
+            - tour-f-516
+            - tour-f-518
+            - tour-f-520
+            - tour-f-524
+            - tour-f-501
+            - tour-f-519
 Polytech:
     Bachelier:
         Bloc 1:
