@@ -417,33 +417,33 @@ Sciences:
                         - phys-f-201
                         - phys-f-203
                 - Informatique:
-                        - info-f-202
-                        - info-f-302
-                        - math-f-306
-                        - Options:
-                            - envi-f-1001
-                            - ethi-f-1001
-                            - geol-f-1001
-                            - hist-f-1001
-                            - info-f-305
-                            - info-h-303
-                            - lang-f-301
-                            - phys-f-103
-                            - phys-f-105
+                    - info-f-202
+                    - info-f-302
+                    - math-f-306
+                    - Options:
+                        - envi-f-1001
+                        - ethi-f-1001
+                        - geol-f-1001
+                        - hist-f-1001
+                        - info-f-305
+                        - info-h-303
+                        - lang-f-301
+                        - phys-f-103
+                        - phys-f-105
                 - Economie:
-                        - gest-s-318
-                        - math-f-306
-                        - stat-s-308
-                        - Options:
-                            - econ-s-3002
-                            - envi-f-1001
-                            - ethi-f-1001
-                            - geol-f-1001
-                            - gest-s-101
-                            - hist-f-1001
-                            - info-f-305
-                            - lang-f-301
-                            - phys-f-105
+                    - gest-s-318
+                    - math-f-306
+                    - stat-s-308
+                    - Options:
+                        - econ-s-3002
+                        - envi-f-1001
+                        - ethi-f-1001
+                        - geol-f-1001
+                        - gest-s-101
+                        - hist-f-1001
+                        - info-f-305
+                        - lang-f-301
+                        - phys-f-105
                 - Biologie:
                     - biol-f-208
                     - chim-f-202
@@ -826,34 +826,34 @@ Sciences:
                 Cameroun:
                     - biol-y-020
                     - biol-y-059
-                    - Ecosystèmes et paysages
+                    - Ecosystèmes et paysages:
                         - biol-y-021
                         - biol-y-022
                         - envi-y-019
                         - geog-y-006
-                    - Agroforesterie et gestion des ressources naturelles
+                    - Agroforesterie et gestion des ressources naturelles:
                         - biol-y-023
                         - biol-y-024
                         - biol-y-025
                         - biol-y-026
                         - envi-y-020
-                    - Politiques et aménagement
+                    - Politiques et aménagement:
                         - envi-y-021
                         - envi-y-022
                         - envi-y-023
                         - envi-y-024
                         - envi-y-025
-                    - Ecologie et sylviculture
+                    - Ecologie et sylviculture:
                         - biol-y-027
                         - biol-y-028
                         - biol-y-029
                         - biol-y-030
-                    - Ethnobotanique
+                    - Ethnobotanique:
                         - biol-y-031
                         - biol-y-032
                         - biol-y-033
                         - biol-y-034
-                    - Management environnemental
+                    - Management environnemental:
                         - envi-y-026
                         - envi-y-027
                         - envi-y-028
@@ -1401,36 +1401,37 @@ Sciences:
             - lang-f-301
             - math-f-315
         Master:
-            - geol-f-4001
-            - geol-f-4002
-            - geol-f-4003
-            - geol-f-4004
-            - geol-f-408
-            - geol-f-410
-            - geol-f-411
-            - geol-f-414
-            - geol-f-426
-            - geol-f-427
-            - geol-f-428
-            - geol-f-435
-            - Options:
-                - biol-f-4002
-                - biol-f-531
-                - chim-f-102
-                - chim-f-405
-                - chim-h-302
-                - envi-f-405
-                - envi-f-451
-                - envi-f-526
-                - envi-f-527
-                - geog-f-211
-                - geog-f-301
-                - geog-f-400
-                - geog-f-408
-                - geog-f-425
-                - geol-f-412
-                - geol-f-432
-                - geol-f-527
+            Bloc 1:
+                - geol-f-4001
+                - geol-f-4002
+                - geol-f-4003
+                - geol-f-4004
+                - geol-f-408
+                - geol-f-410
+                - geol-f-411
+                - geol-f-414
+                - geol-f-426
+                - geol-f-427
+                - geol-f-428
+                - geol-f-435
+                - Options:
+                    - biol-f-4002
+                    - biol-f-531
+                    - chim-f-102
+                    - chim-f-405
+                    - chim-h-302
+                    - envi-f-405
+                    - envi-f-451
+                    - envi-f-526
+                    - envi-f-527
+                    - geog-f-211
+                    - geog-f-301
+                    - geog-f-400
+                    - geog-f-408
+                    - geog-f-425
+                    - geol-f-412
+                    - geol-f-432
+                    - geol-f-527
             Bloc 2:
                 - geol-f-4003
                 - geol-f-4004
@@ -1507,43 +1508,43 @@ Sciences:
                     - hist-f-1001
                     - phys-f-105
             Bloc 3:
-            - geog-f-211
-            - geog-f-301
-            - geog-f-307
-            - geog-f-313
-            - geog-f-318
-            - geog-s-101
-            - lang-f-301
-            - math-f-315
-            - soca-d-304
-            - Sciences de l'environnement:
-                - biol-f-306
-                - chim-f-102
-                - chim-f-1101
-                - geog-f-314
-                - geol-f-102
-                - geol-f-104
-                - geol-f-204
-                - geol-f-205
-                - geol-f-211
-                - geol-f-3001
-                - geol-f-307
-                - geol-f-309
-                - math-f-1112
-                - phys-f-205
-            - Sciences sociales:
-                - hist-b-155
-                - hist-d-102
-                - hist-d-172
-                - poli-d-101
-                - soca-d-101
-                - soca-d-201
-                - soca-d-308
-                - soca-d-494
-            - Options:
-                - ethi-f-1001
-                - hist-f-1001
-                - phys-f-105
+                - geog-f-211
+                - geog-f-301
+                - geog-f-307
+                - geog-f-313
+                - geog-f-318
+                - geog-s-101
+                - lang-f-301
+                - math-f-315
+                - soca-d-304
+                - Sciences de l'environnement:
+                    - biol-f-306
+                    - chim-f-102
+                    - chim-f-1101
+                    - geog-f-314
+                    - geol-f-102
+                    - geol-f-104
+                    - geol-f-204
+                    - geol-f-205
+                    - geol-f-211
+                    - geol-f-3001
+                    - geol-f-307
+                    - geol-f-309
+                    - math-f-1112
+                    - phys-f-205
+                - Sciences sociales:
+                    - hist-b-155
+                    - hist-d-102
+                    - hist-d-172
+                    - poli-d-101
+                    - soca-d-101
+                    - soca-d-201
+                    - soca-d-308
+                    - soca-d-494
+                - Options:
+                    - ethi-f-1001
+                    - hist-f-1001
+                    - phys-f-105
         Master didactique:
             Bloc 1:
                 - geog-f-407
@@ -1554,38 +1555,38 @@ Sciences:
                 - geog-f-430
                 - peda-e-510
                 - Options:
-                        - geog-f-402
-                        - geog-f-403
-                        - hist-b-4050
-                        - poli-d-406
-                        - tour-f-415
-                        - envi-f-1001
-                        - geog-f-211
-                        - geog-f-315
-                        - soca-d-304
-                        - envi-f-405
-                        - envi-f-437
-                        - geog-f-400
-                        - geog-f-420
-                        - arch-h-1001
-                        - hist-b-4010
-                        - hist-b-5005
-                        - poli-d-503
-                        - soca-d-494
-                        - mstl-h-601
-                        - soca-d-455
-                        - tour-f-408
-                        - crim-c-201
-                        - crim-c-203
-                        - hist-b-4050
-                        - poli-d-420
-                        - soca-d-313
-                        - soca-d-404
-                        - econ-d-434
-                        - poli-d-425
-                        - soca-d-443
-                        - soca-d-461
-                        - soca-d-471
+                    - geog-f-402
+                    - geog-f-403
+                    - hist-b-4050
+                    - poli-d-406
+                    - tour-f-415
+                    - envi-f-1001
+                    - geog-f-211
+                    - geog-f-315
+                    - soca-d-304
+                    - envi-f-405
+                    - envi-f-437
+                    - geog-f-400
+                    - geog-f-420
+                    - arch-h-1001
+                    - hist-b-4010
+                    - hist-b-5005
+                    - poli-d-503
+                    - soca-d-494
+                    - mstl-h-601
+                    - soca-d-455
+                    - tour-f-408
+                    - crim-c-201
+                    - crim-c-203
+                    - hist-b-4050
+                    - poli-d-420
+                    - soca-d-313
+                    - soca-d-404
+                    - econ-d-434
+                    - poli-d-425
+                    - soca-d-443
+                    - soca-d-461
+                    - soca-d-471
             Bloc 2:
                 - geog-f-407
                 - geog-f-501
@@ -1818,116 +1819,116 @@ Sciences:
                 - soca-d-461
     Environnement:
         Gestion de l'environnement:
-        Bloc 1:
-            - envi-f-405
-            - envi-f-409
-            - envi-f-437
-            - envi-f-452
-            - envi-f-403
-            - envi-f-422
-            - envi-f-438
-            - envi-f-454
-            - Option:
-                - envi-d-500
-                - envi-f-4001
-                - envi-f-434
-                - tour-f-407
-        Bloc 2:
-            - envi-f-501
-            - envi-f-510
-            - memo-f-530
-            - envi-f-5001
-            - Option:
-                - bing-f-1001
-                - envi-d-500
-                - envi-f-4001
-                - envi-f-408
-                - envi-f-421
-                - envi-f-434
-                - envi-f-5002
-                - envi-f-504
-                - envi-f-529
-                - envi-l-4110
-                - envi-l-505
-                - envi-l-5210
-                - envi-y-308
-                - geog-f-211
-                - geog-f-414
-                - geog-f-416
-                - hist-f-1001
-                - soca-d-207
-                - soca-d-443
-                - soca-d-455
-                - soca-d-471
-                - soca-d-494
-                - soca-d-4996
-                - tour-f-407
+            Bloc 1:
+                - envi-f-405
+                - envi-f-409
+                - envi-f-437
+                - envi-f-452
+                - envi-f-403
+                - envi-f-422
+                - envi-f-438
+                - envi-f-454
+                - Option:
+                    - envi-d-500
+                    - envi-f-4001
+                    - envi-f-434
+                    - tour-f-407
+            Bloc 2:
+                - envi-f-501
+                - envi-f-510
+                - memo-f-530
+                - envi-f-5001
+                - Option:
+                    - bing-f-1001
+                    - envi-d-500
+                    - envi-f-4001
+                    - envi-f-408
+                    - envi-f-421
+                    - envi-f-434
+                    - envi-f-5002
+                    - envi-f-504
+                    - envi-f-529
+                    - envi-l-4110
+                    - envi-l-505
+                    - envi-l-5210
+                    - envi-y-308
+                    - geog-f-211
+                    - geog-f-414
+                    - geog-f-416
+                    - hist-f-1001
+                    - soca-d-207
+                    - soca-d-443
+                    - soca-d-455
+                    - soca-d-471
+                    - soca-d-494
+                    - soca-d-4996
+                    - tour-f-407
         Sciences l'environnement:
-        Bloc 1:
-        - envi-f-405
-        - envi-f-409
-        - envi-f-437
-        - envi-f-452
-        - envi-f-527
-        - geog-f-400
-        - geog-f-425
-        - geol-f-428
-        - geol-f-527
-        - Options:
-            - envi-f-526
-            - geog-f-408
-            - geog-f-410
-            - geog-f-502
-            - biol-f-4005
-            - geol-f-2001
-            - geol-f-4002
-            - geol-f-414
-            - geol-f-432
-        Bloc 2:
-            - envi-f-501
-            - envi-f-510
-            - memo-f-529
-            - geog-f-500
-            - Options:
-                - envi-f-526
-                - geog-f-408
-                - geog-f-410
-                - geog-f-502
-                - biol-f-4005
-                - geol-f-2001
-                - geol-f-4002
-                - geol-f-414
-                - geol-f-432
-                - bing-f-301
-                - bing-f-525
-                - bing-y-001
-                - bing-y-003
-                - biol-f-4005
-                - biol-f-417
-                - biol-f-441
-                - biol-f-443
-                - biol-f-444
-                - envi-f-450
-                - envi-f-451
-                - envi-f-526
-                - envi-y-004
-                - envi-y-008
-                - envi-y-009
-                - geog-f-211
-                - geog-f-408
-                - geog-f-410
-                - geog-f-420
-                - geog-f-502
-                - geog-y-001
-                - geog-y-004
-                - geog-y-005
-                - geol-f-2001
-                - geol-f-4001
-                - geol-f-4002
-                - geol-f-410
-                - geol-f-414
-                - geol-f-432
-                - geol-f-435
+            Bloc 1:
+                - envi-f-405
+                - envi-f-409
+                - envi-f-437
+                - envi-f-452
+                - envi-f-527
+                - geog-f-400
+                - geog-f-425
+                - geol-f-428
+                - geol-f-527
+                - Options:
+                    - envi-f-526
+                    - geog-f-408
+                    - geog-f-410
+                    - geog-f-502
+                    - biol-f-4005
+                    - geol-f-2001
+                    - geol-f-4002
+                    - geol-f-414
+                    - geol-f-432
+            Bloc 2:
+                - envi-f-501
+                - envi-f-510
+                - memo-f-529
+                - geog-f-500
+                - Options:
+                    - envi-f-526
+                    - geog-f-408
+                    - geog-f-410
+                    - geog-f-502
+                    - biol-f-4005
+                    - geol-f-2001
+                    - geol-f-4002
+                    - geol-f-414
+                    - geol-f-432
+                    - bing-f-301
+                    - bing-f-525
+                    - bing-y-001
+                    - bing-y-003
+                    - biol-f-4005
+                    - biol-f-417
+                    - biol-f-441
+                    - biol-f-443
+                    - biol-f-444
+                    - envi-f-450
+                    - envi-f-451
+                    - envi-f-526
+                    - envi-y-004
+                    - envi-y-008
+                    - envi-y-009
+                    - geog-f-211
+                    - geog-f-408
+                    - geog-f-410
+                    - geog-f-420
+                    - geog-f-502
+                    - geog-y-001
+                    - geog-y-004
+                    - geog-y-005
+                    - geol-f-2001
+                    - geol-f-4001
+                    - geol-f-4002
+                    - geol-f-410
+                    - geol-f-414
+                    - geol-f-432
+                    - geol-f-435
         Sciences et gestion de l´environnement (60 crédits):
             - envi-f-403
             - envi-f-405
@@ -2325,11 +2326,11 @@ Polytech:
                             - gest-h-506
                             - meca-h-415
                         - Processus industriels:
-                                - elec-h-313
-                                - math-h-503
-                                - meca-h-402
-                                - meca-h-514
-                                - phys-h-514
+                            - elec-h-313
+                            - math-h-503
+                            - meca-h-402
+                            - meca-h-514
+                            - phys-h-514
                         - Telecommunications:
                             - elec-h-401
                             - elec-h-415
@@ -3363,27 +3364,27 @@ Droit:
                 - germ-y-2170
                 - psyc-y-2170
         Bloc 3:
-        - droi-c-3001
-        - droi-c-3002
-        - droi-c-3003
-        - droi-c-3004
-        - droi-c-3005
-        - droi-c-3006
-        - droi-c-3007
-        - droi-c-3008
-        - droi-c-3009
-        - lang-c-3001
-        - Mons:
-            - droi-c-3170
-            - droi-c-3171
-            - droi-c-3172
-            - droi-c-3173
-            - droi-c-3174
-            - droi-c-3175
-            - droi-c-3176
-            - droi-c-3177
-            - droi-c-3178
-            - germ-y-3170
+            - droi-c-3001
+            - droi-c-3002
+            - droi-c-3003
+            - droi-c-3004
+            - droi-c-3005
+            - droi-c-3006
+            - droi-c-3007
+            - droi-c-3008
+            - droi-c-3009
+            - lang-c-3001
+            - Mons:
+                - droi-c-3170
+                - droi-c-3171
+                - droi-c-3172
+                - droi-c-3173
+                - droi-c-3174
+                - droi-c-3175
+                - droi-c-3176
+                - droi-c-3177
+                - droi-c-3178
+                - germ-y-3170
     Master:
         Droit public et international:
             Bloc 1:
@@ -3570,7 +3571,7 @@ Droit:
                 - droi-c-5013
                 - droi-c-5014
                 - droi-c-5015
-                -Options:
+                - Options:
                     - droi-c-4012
                     - droi-c-4013
                     - droi-c-4032
