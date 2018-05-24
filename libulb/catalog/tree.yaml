@@ -4591,3 +4591,689 @@ Motricité:
             - kine-i-406
             - medi-i-4044
             - memo-i-401
+
+Philosophie et Sciences Sociales:
+    Histoire, Histoire de l'Art et Archéologie:
+        Bacheliers:
+            Histoire:
+                Bloc 1:
+                    - tran-b-100
+                    - tran-b-105
+                    - tran-b-115
+                    - clas-b-156
+                    - hist-b-100
+                    - hist-b-105
+                    - hist-b-110
+                    - hist-b-115
+                    - hist-b-125
+                    - hist-d-173
+                    - hist-d-200
+                    - hist-d-201
+                Bloc 2:
+                    - tran-b-200
+                    - lang-b-200
+                    - Langue 2:
+                        - germ-b-250
+                        - germ-b-251
+                        - germ-b-260
+                        - lang-b-230
+                        - orie-b-101
+                        - orie-b-120
+                        - orie-b-250
+                        - roma-b-221
+                        - roma-b-245
+                        - roma-b-250
+                        - roma-b-261
+                        - slav-b-102
+                        - slav-b-216
+                        - slav-b-226
+                        - slav-b-235
+                    - geog-f-103
+                    - hist-b-200
+                    - hist-s-101
+                    - Cours optionnels:
+                        - hist-b-215
+                        - hist-b-220
+                        - hist-b-225
+                        - hist-b-230
+                        - poli-d-102
+                        - soca-d-102
+                Bloc 3:
+                    - tran-b-300
+                    - lang-b-300
+                    - Langue 2:
+                        - germ-b-132
+                        - germ-b-350
+                        - lang-b-330
+                        - orie-b-102
+                        - orie-b-225
+                        - orie-b-350
+                        - roma-b-321
+                        - roma-b-345
+                        - roma-b-350
+                        - roma-b-361
+                        - slav-b-103
+                        - slav-b-217
+                        - slav-b-227
+                        - slav-b-335
+                    - genr-d-301
+                    - hist-b-300
+                    - Cours optionnels:
+                        - droi-d-103
+                        - haar-d-303
+                        - hist-b-215
+                        - hist-b-220
+                        - hist-b-225
+                        - hist-b-230
+                        - hist-b-311
+                        - hist-b-315
+                        - hist-b-320
+                        - hist-b-325
+            Histoire de l'Art et Archéologie:
+                Bloc 1:
+                    - soca-d-101
+                    - tran-b-100
+                    - tran-b-105
+                    - tran-b-110
+                    - haar-b-105
+                    - haar-b-115
+                    Orientation générale:
+                        - haar-b-100
+                        - haar-b-126
+                        - haar-b-130
+                        - haar-b-200
+                        - haar-b-341
+                    Orientation musicologie:
+                        - haar-b-110
+                        - musi-b-100
+                        - musi-b-105
+                        - musi-b-116
+                Bloc 2:
+                    - tran-b-200
+                    - lang-b-200
+                    - Langue 2:
+                        - germ-b-250
+                        - germ-b-251
+                        - germ-b-260
+                        - lang-b-230
+                        - orie-b-101
+                        - orie-b-120
+                        - orie-b-250
+                        - roma-b-221
+                        - roma-b-245
+                        - roma-b-250
+                        - roma-b-261
+                        - slav-b-102
+                        - slav-b-216
+                        - slav-b-226
+                        - slav-b-235
+                    - Orientation générale:
+                        - haar-b-110
+                        - haar-b-230
+                        - haar-b-305
+                        - Méthodologie:
+                            - haar-b-215
+                            - haar-b-220
+                        - Cours optionnels:
+                            - haar-b-245
+                            - haar-b-250
+                            - haar-b-265
+                            - haar-b-270
+                            - haar-b-275
+                            - haar-b-360
+                            - haar-b-370
+                            - haar-b-375
+                            - haar-b-380
+                            - haar-b-385
+                            - haar-d-300
+                            - haar-d-301
+                            - haar-d-304
+                    - Orientation musicologie:
+                        - musi-b-200
+                        - musi-b-205
+                        - musi-b-216
+                        - musi-b-440
+                        - musi-y-201
+                Bloc 3:
+                    - tran-b-300
+                    - lang-b-300
+                    - haar-b-300
+                    - haar-b-325
+                    - Langue 2:
+                        - germ-b-132
+                        - germ-b-350
+                        - lang-b-330
+                        - orie-b-102
+                        - orie-b-225
+                        - orie-b-350
+                        - roma-b-321
+                        - roma-b-345
+                        - roma-b-350
+                        - roma-b-361
+                        - slav-b-103
+                        - slav-b-217
+                        - slav-b-227
+                        - slav-b-335
+                    - Orientation générale:
+                        - haar-b-320
+                        - Méthodologie:
+                            - haar-b-215
+                            - haar-b-220
+                            - haar-b-245
+                            - haar-b-250
+                            - haar-b-265
+                            - haar-b-270
+                            - haar-b-275
+                            - haar-b-360
+                            - haar-b-370
+                            - haar-b-375
+                            - haar-b-380
+                            - haar-b-385
+                            - haar-d-300
+                            - haar-d-301
+                            - haar-d-304
+                    - Orientation musicologie:
+                        - musi-b-300
+                        - musi-b-306
+                        - musi-y-301
+                        - Cours optionnels:
+                            - haar-b-125
+                            - haar-b-220
+            Mineure en Philosophie:
+                Bloc 2:
+                    - phil-b-100
+                    - phil-b-105
+                    - phil-b-130
+                Bloc 3:
+                    - phil-b-150
+                    - phil-b-160
+                    - phil-b-250
+            Mineure en Langues et lettres anciennes (latin - grec):
+                Bloc 2:
+                    - clas-b-100
+                    - clas-b-115
+                    - clas-b-321
+                Bloc 3:
+                    - clas-b-305
+                    - clas-b-316
+                    - clas-b-330
+            Mineure en Langues et lettres anciennes (langues orientales):
+                Bloc 2:
+                    - clas-b-1000
+                    - clas-b-230
+                    - haar-b-200
+                    - Cours optionnels:
+                        - clas-b-225
+                        - haar-b-200
+                Bloc 3:
+                    - clas-b-331
+                    - clas-y-3000
+                    - Cours optionnelss:
+                        - clas-b-3000
+                        - clas-b-326
+            Mineure en Langue et lettres françaises:
+                Bloc 2:
+                  - fran-b-100
+                  - Cours optionnels:
+                      - fran-b-115
+                      - fran-b-210
+                Bloc 3:
+                  - fran-b-215
+                  - fran-b-315
+                  - fran-b-325
+            Mineure en Anglais:
+                Bloc 2:
+                    - germ-b-100
+                    - germ-b-105
+                    - germ-b-115
+                Bloc 3:
+                    - germ-b-200
+                    - germ-b-210
+            Mineure en Néerlandais:
+                Bloc 2:
+                    - germ-b-126
+                    - germ-b-255
+                Bloc 3:
+                    - germ-b-215
+                    - germ-b-225
+            Mineure en Allemand:
+                Bloc 2:
+                    - germ-b-132
+                    - germ-b-136
+                    - germ-b-260
+                Bloc 3:
+                    - germ-b-230
+                    - germ-b-235
+            Mineure en Espagnol:
+                Bloc 2:
+                    - roma-b-100
+                Bloc 3:
+                    - roma-b-105
+                    - roma-b-200
+                    - roma-b-205
+            Mineure en Italien:
+                Bloc 2:
+                    - roma-b-120
+                    - roma-b-125
+                    - roma-b-130
+                Bloc 3:
+                    - roma-b-215
+                    - roma-b-275
+                    - roma-b-280
+            Mineure en Arabe:
+                Bloc 2:
+                    - orie-b-101
+                    - orie-b-102
+                    - orie-b-110
+                Bloc 3:
+                    - orie-b-201
+                    - orie-b-202
+                    - orie-b-211
+            Mineure en Russe:
+                Bloc 2:
+                    - slav-b-100
+                    - slav-b-210
+                Bloc 3:
+                    - slav-b-205
+                    - slav-b-311
+            Mineure en Polonais:
+                Bloc 2:
+                    - slav-b-215
+                    - slav-b-220
+                Bloc 3:
+                    - slav-b-315
+                    - slav-b-321
+            Mineure en Tchèque:
+                Bloc 2:
+                    - slav-b-225
+                    - slav-b-230
+                Bloc 3:
+                    - slav-b-325
+                    - slav-b-331
+            Mineure en Histoire de l'art et archéologie:
+                Bloc 2:
+                    - haar-b-130
+                    - Cours optionnels:
+                        - haar-b-100
+                        - haar-b-105
+                        - haar-b-200
+                        - haar-b-341
+                        - haar-b-245
+                        - haar-b-250
+                        - haar-b-265
+                        - haar-b-270
+                        - haar-b-275
+                        - haar-b-360
+                        - haar-b-370
+                        - haar-b-375
+                        - haar-b-380
+                        - haar-b-385
+                        - haar-d-300
+                        - haar-d-301
+                        - haar-d-304
+                Bloc 3:
+                    - haar-b-125
+                    - Cours optionnels:
+                        - haar-b-110
+                        - haar-b-115
+                        - haar-b-230
+                        - haar-b-305
+                        - haar-b-245
+                        - haar-b-250
+                        - haar-b-265
+                        - haar-b-270
+                        - haar-b-275
+                        - haar-b-360
+                        - haar-b-370
+                        - haar-b-375
+                        - haar-b-380
+                        - haar-b-385
+                        - haar-d-300
+                        - haar-d-301
+                        - haar-d-304
+            Mineure en Musicologie:
+                Bloc 2:
+                    - musi-b-105
+                    - Cours optionnels:
+                        - musi-b-100
+                        - musi-b-100
+                        - musi-b-440
+                Bloc 3:
+                    - musi-b-200
+                    - musi-b-205
+                    - musi-b-216
+            Mineure en Information et communication:
+                Bloc 2:
+                    - comm-b-110
+                    - comm-b-115
+                    - comm-b-215
+                Bloc 3:
+                    - comm-b-300
+                    - comm-b-305
+                    - comm-b-315
+            Mineure en Criminologie:
+                Bloc 2:
+                    - crim-c-201
+                    - crim-c-203
+                    - droi-c-201
+                Bloc 3:
+                    - geog-f-103
+                    - poli-d-311
+                    - psyc-e-104
+                    - psyc-e-2012
+                    - soca-d-202
+                    - soca-d-203
+                    - soca-d-210
+                    - soca-d-301
+                    - stat-d-103
+            Option Antiquité méditerranéenne:
+                Bloc 2:
+                    - clas-b-105
+                    - clas-b-135
+                    - haar-b-105
+                    - phil-b-100
+                Bloc 3:
+                    - clas-b-115
+                    - clas-b-236
+                    - haar-b-345
+                    - haar-b-370
+            Option Histoire mondiale:
+                Bloc 2:
+                    - haar-b-350
+                    - hist-d-202
+                    - orie-b-115
+                Bloc 3:
+                    - haar-b-305
+                    - hist-y-301
+                    - poli-d-204
+            Option Géographie et sciences humaines:
+                Bloc 2:
+                    - geog-f-210
+                    - soca-d-101
+                    - soca-d-172
+                Bloc 3:
+                    - geog-f-1001
+                    - psyc-e-104
+            Option Textes, objets, images:
+                    Bloc 2:
+                        - clas-b-246
+                        - fran-b-120
+                        - haar-b-110
+                    Bloc 3:
+                        - fran-b-215
+                        - haar-b-215
+                        - haar-b-335
+        Masters:
+            Histoire:
+                Bloc 1:
+                    Tronc commun:
+                        - memo-b-400
+                        - hist-b-4005
+                        - hist-b-4010
+                        - hist-b-4050
+                    Modules d'option:
+                            Module Antiquité:
+                                - clas-b-440
+                                - hist-b-4015
+                                - hist-b-4200
+                                - hist-b-4205
+                                - hist-b-4210
+                            Module Moyen Age:
+                                - hist-b-4020
+                                - hist-b-4025
+                                - hist-b-4030
+                                - hist-b-4215
+                            Module Temps modernes:
+                                - hist-b-4025
+                                - hist-b-4035
+                                - hist-b-4040
+                                - hist-b-4220
+                            Module Epoque contemporaine:
+                                - hist-b-4045
+                                - hist-b-4225
+                                - hist-b-5015
+                                - orie-b-435
+                    Finalité didactique:
+                        - peda-e-510
+                        - peda-b-438
+                        - Cours optionnels:
+                            - peda-b-418
+                            - peda-b-470
+                    Finalité histoire et administrations:
+                        - droi-d-203
+                        - gest-b-405
+                        - stic-b-405
+                    Finalité archives et documents:
+                        - stic-b-420
+                        - stic-b-435
+                        - stic-b-530
+                Bloc 2:
+                    Tronc commun:
+                        - memo-b-500
+                        - hist-b-5000
+                    Modules d'option:
+                        Module Histoire des religions:
+                            - clas-b-425
+                            - rela-b-430
+                            - rela-b-435
+                            - rela-b-530
+                            - rela-d-500
+                        Module Monde méditerranéen antique:
+                            - clas-b-420
+                            - clas-b-425
+                            - haar-b-4205
+                            - haar-b-4210
+                            - haar-b-5025
+                            - haar-b-5030
+                        Module Patrimoine et espaces urbains:
+                            - geog-y-501
+                            - haar-b-4035
+                            - haar-b-5035
+                            - hist-b-5005
+                            - soca-d-494
+                            - tour-f-415
+                        Module Etudes de genre:
+                            - hist-d-500
+                            - soca-b-400
+                            - soca-d-313
+                            - soca-d-496
+                            - soca-d-497
+                        Module Mondialisation et transferts culturels:
+                            - comm-b-400
+                            - hist-b-5010
+                            - hist-o-402
+                            - hist-y-501
+                            - rela-d-400
+                            - soca-b-400
+                            - tour-f-415
+                    Finalité didactique:
+                        - educ-e-520
+                        - peda-b-558
+                        - Cours optionnels:
+                            - peda-b-519
+                            - peda-b-578
+                    Finalité histoire et administrations:
+                        - stag-b-500
+                        - Cours optionnels:
+                            - gecu-d-400
+                            - gest-s-496
+                            - stic-b-505
+                    Finalité archives et documents:
+                        - stag-b-502
+                        - stic-b-410
+            Histoire de l'Art et Archéologie:
+                Orientation générale:
+                    Bloc 1:
+                        Tronc commun:
+                            - memo-b-400
+                            - haar-b-4000
+                        Modules:
+                            Module Préhistoire / Protohistoire:
+                                - haar-b-4005
+                                - haar-b-4010
+                                - haar-b-4015
+                                - haar-b-4200
+                                - Cours optionnels:
+                                    - haar-b-4205
+                                    - haar-b-4210
+                                    - haar-b-4215
+                            Module Antiquité:
+                                - haar-b-4020
+                                - haar-b-4205
+                                - haar-b-4210
+                                - haar-b-4215
+                                - Cours optionnels:
+                                    - clas-b-440
+                                    - hist-b-4015
+                                    - hist-b-4200
+                                    - hist-b-4205
+                                    - hist-b-4210
+                            Module Moyen Age  Renaissance  Temps modernes:
+                                - haar-b-4025
+                                - haar-b-4030
+                                - haar-b-4035
+                                - haar-b-4225
+                                - haar-b-5040
+                                - Cours optionnels:
+                                    - hist-b-4030
+                                    - hist-b-4040
+                            Module Art contemporain:
+                                - artc-b-450
+                                - cine-b-400
+                                - cine-b-515
+                                - haar-b-355
+                                - haar-b-5050
+                                - Cours optionnels:
+                                    - haar-b-4230
+                                    - haar-b-5220
+                            Module Amérique précolombienne:
+                                - haar-b-4060
+                                - haar-b-4245
+                                - haar-b-4270
+                                - haar-d-401
+                                - hist-b-4005
+                                - soca-d-418
+                            Module Afrique:
+                                - haar-b-4250
+                                - haar-d-400
+                                - haar-d-402
+                                - hist-b-4005
+                                - Cours optionnels:
+                        - haar-b-4200
+                        - haar-b-4215
+                        - soca-d-4996
+                        Finalité didactique:
+                                - peda-e-510
+                                - peda-b-419
+                                - peda-b-439
+                        Finalité pratique de l'archéologie:
+                            - haar-b-4055
+                            - haar-b-4261
+                            - stag-b-410
+                        Finalité musées et conservation du patrimoine mobilier:
+                            - haar-b-4075
+                            - haar-b-4080
+                            - haar-b-4085
+                        Finalité mondes de l'art et culture visuelle:
+                            - haar-b-395
+                            - soca-d-422
+                            - stag-b-412
+                    Bloc 2:
+                        Tronc commun:
+                            - memo-b-500
+                        Modules:
+                            Module Préhistoire / Protohistoire:
+                                - haar-b-5006
+                                - haar-b-5011
+                                - haar-b-5201
+                                - haar-b-5275
+                            Module Antiquité:
+                                - haar-b-5020
+                                - haar-b-5025
+                                - haar-b-5030
+                                - Cours optionnels:
+                                    - haar-b-5206
+                                    - haar-b-5211
+                                    - haar-b-5275
+                            Module Moyen Age/Renaissance/Temps modernes:
+                                - haar-b-5035
+                                - haar-b-5045
+                                - haar-b-5080
+                                - Cours optionnels:
+                                    - haar-b-5030
+                                    - rela-b-435
+                                    - rela-b-530
+                            Module Art contemporain:
+                                - haar-b-4040
+                                - haar-b-5080
+                                - Cours optionnels:
+                                    - haar-b-4230
+                                    - haar-b-5220
+                                    - cine-b-510
+                                    - haar-b-5030
+                                    - orie-b-455
+                            Module Amérique précolombienne:
+                                - haar-b-4265
+                                - haar-b-5240
+                                - haar-b-5246
+                                - soca-d-466
+                            Module Afrique:
+                                - haar-d-501
+                                - soca-d-487
+                                - Cours optionnels:
+                                    - comm-b-330
+                                    - orie-b-445
+                                    - soca-d-408
+                        Finalité didactique:
+                                - educ-e-520
+                                - peda-b-579
+                                - peda-b-559
+                        Finalité pratique de l'archéologie:
+                            - haar-b-5070
+                            - haar-b-5265
+                            - haar-d-500
+                        Finalité musées et conservation du patrimoine mobilier:
+                            - haar-b-5090
+                            - haar-b-5270
+                            - stag-b-510
+                        Finalité mondes de l'art et culture visuelle:
+                            - artc-b-500
+                            - haar-b-5075
+                            - Cours optionnels:
+                                - hist-b-5005
+                                - tour-f-401
+                Orientation musicologie:
+                    Bloc 1:
+                        Tronc commun:
+                            - memo-b-400
+                            - artc-b-425
+                            - musi-b-405
+                            - musi-b-410
+                            - musi-d-400
+                        Cours optionnels:
+                            - cine-b-400
+                            - haar-b-5040
+                            - haar-b-5045
+                        Finalité musicologie appliquée:
+                            - musi-b-415
+                            - musi-b-425
+                            - musi-b-430
+                        Finalité didactique:
+                            - peda-e-510
+                            - peda-b-421
+                            - peda-b-441
+                    Bloc 2:
+                        Tronc commun:
+                             - memo-b-500
+                             - musi-b-515
+                             - musi-d-500
+                        Cours optionnels:
+                            - haar-b-4025
+                            - hist-b-5005
+                        Finalité musicologie appliquée:
+                            - fran-b-545
+                            - stag-b-512
+                        Finalité didactique:
+                            - educ-e-520
+                            - peda-b-581
+                            - peda-b-559
