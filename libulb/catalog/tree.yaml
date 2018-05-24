@@ -4403,6 +4403,153 @@ Droit:
                     - droi-c-5104
                     - droi-c-5169
                     - droi-c-5171
+        Spécialisation en droit européen:
+            Cours obligatoire:
+                - droi-o-500
+                - droi-o-603
+                - droi-o-608
+                - droi-o-626
+                - droi-o-627
+            Droit économique européen:
+                - droi-c-5118
+                - droi-o-604
+                - droi-o-609
+                - droi-o-611
+                - droi-o-623
+                - tran-o-614
+            Espace de liberté, de sécurité et de justice:
+                - droi-c-5141
+                - droi-o-610
+                - droi-o-615
+                - droi-o-616
+                - droi-o-622
+            Recherche ou Profession:
+                - memo-c-602
+                - droi-o-621
+                - droi-o-625
+            Options:
+                - droi-c-5121
+                - droi-c-5150
+                - droi-c-5168
+                - droi-o-607
+                - poli-o-409
+                - proj-o-601
+        Spécialisation en droit fiscal:
+            Prérequis:
+                - droi-c-5000
+                - gest-s-2001
+                - droi-c-5007
+                - droi-c-5135
+                - droi-c-5113
+            Cours obligatoires:
+                - gest-c-618
+                - droi-c-5168
+                - droi-c-632
+                - droi-c-636
+                - droi-c-637
+                - droi-c-638
+                - droi-c-639
+                - droi-c-682
+                - droi-c-683
+                - gest-c-618
+                - memo-c-600
+            Options:
+                - droi-c-4027
+                - droi-c-4028
+                - droi-c-4029
+                - droi-c-5115
+                - droi-c-5117
+                - droi-o-500
+                - droi-o-609
+                - econ-s-455
+                - poli-d-517
+        Spécialisation en droit international:
+            Cours obligatoires:
+                - droi-c-5106
+                - droi-c-643
+                - droi-c-644
+                - droi-c-646
+                - memo-c-603
+            Options:
+                Module Sécurité et conflits:
+                    - droi-c-5149
+                    - droi-c-5155
+                    - droi-c-650
+                    - droi-c-685
+                    - droi-o-605
+                Module Droits de la personne:
+                    - droi-c-5145
+                    - droi-c-5148
+                    - droi-c-5150
+                    - droi-c-5164
+                    - droi-c-5166
+                    - droi-o-616
+                Options générales:
+                    - droi-c-4014
+                    - droi-c-615
+                    - droi-c-647
+                    - droi-c-670
+                    - droi-c-686
+                    - droi-o-611
+        Spécialisation en droit social:
+            Prérequis:
+                - droi-o-401
+                - droi-c-3004
+                - droi-c-4027
+            Cours obligatoires:
+                - droi-c-5006
+                - droi-c-5120
+                - droi-c-5165
+                - droi-c-610
+                - droi-c-612
+                - memo-c-604
+            Options:
+                - droi-c-4029
+                - droi-c-5112
+                - droi-c-5121
+                - droi-c-5138
+                - droi-c-5142
+                - droi-c-605
+                - droi-c-681
+                - droi-c-4028
+                - droi-c-5012
+                - droi-c-5127
+                - droi-c-5139
+                - droi-c-5141
+                - droi-d-402
+                - droi-o-616
+                - droi-o-622
+                - soca-d-313
+                - soca-d-446
+                - VUB:
+                    - droi-y-008
+                    - droi-c-4029
+                    - droi-y-009
+                    - droi-c-681
+                    - droi-y-010
+        Spécialisation en notariat:
+                    Cours obligatoires:
+                        - droi-c-5132
+                        - droi-c-5133
+                        - droi-c-5135
+                        - droi-c-5153
+                        - droi-c-535
+                        - droi-c-659
+                        - droi-c-661
+                        - droi-c-665
+                        - droi-c-667
+                        - memo-c-605
+                    Options:
+                        - droi-c-4023
+                        - droi-c-4024
+                        - droi-c-4025
+                        - droi-c-4026
+                        - droi-c-5114
+                        - droi-c-5115
+                        - droi-c-5122
+                        - droi-c-5123
+                        - droi-c-5127
+
 Motricité:
     Kinésithérapie:
         Bloc 1:
