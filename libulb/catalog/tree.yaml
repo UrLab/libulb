@@ -953,7 +953,6 @@ Sciences:
                     - envi-y-020
                     - envi-y-022
                     - envi-y-024
-                    - OU
                 Australie:
                     - biol-y-119
                     - biol-y-061
@@ -4594,7 +4593,7 @@ Motricité:
 
 Philosophie et Sciences Sociales:
     Histoire, Histoire de l'Art et Archéologie:
-        Bacheliers:
+        Bachelier:
             Histoire:
                 Bloc 1:
                     - tran-b-100
@@ -5003,7 +5002,7 @@ Philosophie et Sciences Sociales:
                         - fran-b-215
                         - haar-b-215
                         - haar-b-335
-        Masters:
+        Master:
             Histoire:
                 Bloc 1:
                     Tronc commun:
@@ -5277,3 +5276,646 @@ Philosophie et Sciences Sociales:
                             - educ-e-520
                             - peda-b-581
                             - peda-b-559
+    Philosophie:
+        Bachelier:
+            Bloc 1:
+                - tran-b-105
+                - tran-b-110
+                - tran-b-115
+                - phil-b-100
+                - phil-b-105
+                - phil-b-130
+                - phil-b-140
+                - phil-b-150
+                - phil-b-160
+                - phil-b-170
+                - rela-b-300
+            Bloc 2:
+                - tran-b-200
+                - lang-b-200
+                - Langue 2:
+                    - germ-b-250
+                    - germ-b-251
+                    - germ-b-260
+                    - lang-b-230
+                    - orie-b-101
+                    - orie-b-120
+                    - orie-b-250
+                    - roma-b-221
+                    - roma-b-245
+                    - roma-b-250
+                    - roma-b-261
+                    - slav-b-102
+                    - slav-b-216
+                    - slav-b-226
+                    - slav-b-235
+                - phil-b-210
+                - phil-b-215
+                - phil-b-220
+                - phil-b-240
+                - phil-b-250
+                - phil-y-201
+            Bloc 3:
+                - tran-b-300
+                - lang-b-300
+                - Langue 2:
+                    - germ-b-132
+                    - germ-b-350
+                    - lang-b-330
+                    - orie-b-102
+                    - orie-b-225
+                    - orie-b-350
+                    - roma-b-321
+                    - roma-b-345
+                    - roma-b-350
+                    - roma-b-361
+                    - slav-b-103
+                    - slav-b-217
+                    - slav-b-227
+                    - slav-b-335
+                - haar-b-300
+                - phil-b-300
+                - phil-b-305
+                - phil-b-310
+                - phil-b-315
+                - phil-b-320
+            Mineure en Langues et lettres anciennes (latin - grec):
+                Bloc 2:
+                    - clas-b-100
+                    - clas-b-115
+                    - clas-b-321
+                Bloc 3:
+                    - clas-b-305
+                    - clas-b-316
+                    - clas-b-330
+            Mineure en Langues et lettres anciennes (langues orientales):
+                Bloc 2:
+                    - clas-b-1000
+                    - clas-b-230
+                    - haar-b-200
+                    - Cours optionnels:
+                        - clas-b-225
+                        - haar-b-200
+                Bloc 3:
+                    - clas-b-331
+                    - clas-y-3000
+                    - Cours optionnels:
+                        - clas-b-3000
+                        - clas-b-326
+            Mineure en Langue et lettres françaises:
+                Bloc 2:
+                    - fran-b-100
+                    - Cours optionnels:
+                        - fran-b-115
+                        - fran-b-210
+                Bloc 3:
+                    - fran-b-215
+                    - fran-b-315
+                    - fran-b-325
+            Mineure en Anglais:
+                Bloc 2:
+                    - germ-b-100
+                    - germ-b-105
+                    - germ-b-115
+                Bloc 3:
+                    - germ-b-200
+                    - germ-b-210
+            Mineure en Néerlandais:
+                Bloc 2:
+                    - germ-b-126
+                    - germ-b-255
+                Bloc 3:
+                    - germ-b-215
+                    - germ-b-225
+            Mineure en Allemand:
+                Bloc 2:
+                    - germ-b-132
+                    - germ-b-136
+                    - germ-b-260
+                Bloc 3:
+                    - germ-b-230
+                    - germ-b-235
+            Mineure en Espagnol:
+                Bloc 2:
+                    - roma-b-100
+                Bloc 3:
+                    - roma-b-105
+                    - roma-b-200
+                    - roma-b-205
+            Mineure en Italien:
+                Bloc 2:
+                    - roma-b-120
+                    - roma-b-125
+                    - roma-b-130
+                Bloc 3:
+                    - roma-b-215
+                    - roma-b-275
+                    - roma-b-280
+            Mineure en Arabe:
+                Bloc 2:
+                    - orie-b-101
+                    - orie-b-102
+                    - orie-b-110
+                Bloc 3:
+                    - orie-b-201
+                    - orie-b-202
+                    - orie-b-211
+            Mineure en Russe:
+                Bloc 2:
+                    - slav-b-100
+                    - slav-b-210
+                Bloc 3:
+                    - slav-b-205
+                    - slav-b-311
+            Mineure en Polonais:
+                Bloc 2:
+                    - slav-b-215
+                    - slav-b-220
+                Bloc 3:
+                    - slav-b-315
+                    - slav-b-321
+            Mineure en Tchèque:
+                Bloc 2:
+                    - slav-b-225
+                    - slav-b-230
+                Bloc 3:
+                    - slav-b-325
+                    - slav-b-331
+            Mineure en Histoire:
+                Bloc 2:
+                    - hist-d-173
+                    - hist-d-200
+                    - hist-d-201
+                Bloc 3:
+                    Antiquité:
+                        - hist-b-100
+                        - hist-b-311
+                    Moyen Age:
+                        - hist-b-105
+                        - hist-b-315
+                    Temps modernes:
+                        - hist-b-110
+                        - hist-b-320
+                    Epoque contemporaine:
+                        - hist-b-115
+                        - hist-b-325
+            Mineure en Histoire de l'art et archéologie:
+                Bloc 2:
+                    - haar-b-130
+                    - Cours optionnels:
+                        - haar-b-100
+                        - haar-b-105
+                        - haar-b-200
+                        - haar-b-341
+                        - haar-b-245
+                        - haar-b-250
+                        - haar-b-265
+                        - haar-b-270
+                        - haar-b-275
+                        - haar-b-360
+                        - haar-b-370
+                        - haar-b-375
+                        - haar-b-380
+                        - haar-b-385
+                        - haar-d-300
+                        - haar-d-301
+                        - haar-d-304
+                Bloc 3:
+                    - haar-b-125
+                    - Cours optionnels:
+                        - haar-b-110
+                        - haar-b-115
+                        - haar-b-230
+                        - haar-b-305
+                        - haar-b-245
+                        - haar-b-250
+                        - haar-b-265
+                        - haar-b-270
+                        - haar-b-275
+                        - haar-b-360
+                        - haar-b-370
+                        - haar-b-375
+                        - haar-b-380
+                        - haar-b-385
+                        - haar-d-300
+                        - haar-d-301
+                        - haar-d-304
+            Mineure en Musicologie:
+                Bloc 2:
+                    - musi-b-105
+                        - Cours optionnels:
+                            - musi-b-100
+                            - musi-b-440
+                Bloc 3:
+                    - musi-b-200
+                    - musi-b-205
+                    - musi-b-216
+            Mineure en Information et communication:
+                Bloc 2:
+                    - comm-b-110
+                    - comm-b-115
+                    - comm-b-215
+                Bloc 3:
+                    - comm-b-300
+                    - comm-b-305
+                    - comm-b-315
+            Mineure en Criminologie:
+                Bloc 2:
+                    - crim-c-201
+                    - crim-c-203
+                    - droi-c-201
+                Bloc 3:
+                    - geog-f-103
+                    - poli-d-311
+                    - psyc-e-104
+                    - psyc-e-2012
+                    - soca-d-202
+                    - soca-d-203
+                    - soca-d-210
+                    - soca-d-301
+                    - stat-d-103
+            Option Sciences de l'homme:
+                Bloc 2:
+                    - poli-d-102
+                    - psyc-e-2012
+                    - soca-d-172
+                    - soca-d-201
+                Bloc 3:
+                    - droi-c-2004
+                    - hist-s-101
+                    - poli-d-201
+                    - soca-d-203
+                    - soca-d-207
+            Option Langues et civilisations:
+            Bloc 2:
+                - clas-b-105
+                - clas-b-110
+                - clas-b-156
+                - hist-b-100
+                - hist-b-110
+                - orie-b-110
+            Bloc 3:
+                - clas-b-115
+                - clas-b-135
+                - hist-b-105
+                - hist-b-115
+                - hist-b-300
+                - rela-y-475
+        Master:
+            Philosophie:
+                Bloc 1:
+                    Tronc commun:
+                        - memo-b-400
+                        - phil-b-400
+                        - phil-b-405
+                        - phil-b-410
+                        - phil-b-415
+                        - phil-b-420
+                    Modules:
+                        Module Philosophie générale:
+                            - droi-c-5103
+                            - phil-b-425
+                            - phil-b-430
+                        Module interuniversitaire en Philosophie des sciences:
+                            ULB:
+                                - phil-b-425
+                                - phil-b-430
+                                - phil-b-520
+                            UCL:
+                                - hist-y-401
+                                - phil-y-401
+                                - phil-y-402
+                                - phil-y-403
+                                - phil-y-406
+                            ULg:
+                                - phil-y-504
+                                - phil-y-510
+                                - phil-y-511
+                            UNamur:
+                                - phil-y-407
+                                - phil-y-408
+                    Finalité approfondie:
+                        - phil-b-435
+                        - Cours optionnels:
+                            Esthétique:
+                                - cine-b-410
+                                - haar-b-5075
+                            Ethique:
+                                - ethi-b-410
+                                - ethi-b-415
+                                - ethi-b-505
+                                - phil-d-400
+                            Langage et connaissance:
+                                - ling-b-425
+                                - ling-b-500
+                                - soca-d-472
+                            Philosophie politique et juridique:
+                                - droi-c-5100
+                                - ethi-b-510
+                                - poli-d-515
+                            Spiritualités et laïcité:
+                                - rela-b-550
+                                - soca-d-473
+                            Grec niveau I:
+                                - clas-b-110
+                                - clas-b-115
+                            Grec niveau II:
+                                - clas-b-205
+                                - clas-b-210
+                            Latin niveau I:
+                                - clas-b-135
+                                - clas-b-156
+                            Latin niveau II:
+                                - clas-b-435
+                                - clas-b-460
+                    Finalité didactique:
+                        - peda-e-510
+                        - phil-d-401
+                        - phil-d-402
+                Bloc 2:
+                Tronc commun:
+                    - memo-b-500
+                    - phil-b-500
+                Modules:
+                    Module Philosophie générale:
+                        - phil-b-505
+                        - phil-b-510
+                        - phil-b-515
+                    Module interuniversitaire en Philosophie des sciences:
+                        ULB:
+                            - hist-b-4050
+                            - phil-b-505
+                            - phil-b-510
+                        UCL:
+                            - phil-y-501
+                            - phil-y-502
+                            - phil-y-503
+                            - phil-y-507
+                            - phil-y-508
+                        ULg:
+                            - phil-y-512
+                            - psyc-y-401
+                        UNamur:
+                            - phil-y-509
+                Finalité approfondie:
+                    - phil-b-525
+                    - Cours optionnels:
+                        Esthétique:
+                            - cine-b-410
+                            - haar-b-5075
+                        Ethique:
+                            - ethi-b-400
+                            - ethi-b-410
+                            - ethi-b-415
+                        Langage et connaissance:
+                            - ling-b-425
+                            - ling-b-500
+                            - soca-d-472
+                        Philosophie politique et juridique:
+                            - droi-c-5100
+                            - ethi-b-510
+                            - poli-d-515
+                        Spiritualités et laïcité:
+                            - rela-b-550
+                            - soca-d-473
+                        Grec niveau I:
+                            - clas-b-110
+                            - clas-b-115
+                        Grec niveau II:
+                            - clas-b-205
+                            - clas-b-210
+                        Latin niveau I:
+                            - clas-b-135
+                            - clas-b-156
+                        Latin niveau II:
+                            - clas-b-435
+                            - clas-b-460
+                Finalité didactique:
+                    - educ-e-520
+                    - phil-d-403
+                    - peda-b-550
+            Ethique:
+                Bloc 1:
+                    - memo-b-400
+                    - droi-c-5103
+                    - envi-f-403
+                    - ethi-b-415
+                    - gest-s-454
+                    - phil-b-520
+                    - phil-d-400
+                    - rela-b-420
+                    - soca-d-425
+                    - ethi-b-400
+                    - ethi-b-405
+                    - ethi-b-410
+                Bloc 2:
+                    - memo-b-500
+                    - Cours optionnels:
+                        - ethi-d-500
+                        - ethi-d-501
+                    - Modules:
+                        Module Bioéthique:
+                            - droi-c-5136
+                            - phil-b-505
+                            - Cours optionnels:
+                                - biol-f-102
+                                - droi-l-3012
+                                - hist-b-4050
+                                - sapu-l-4020
+                        Module Développement et environnement:
+                            - envi-f-434
+                            - soca-d-461
+                            - Cours optionnels:
+                                - envi-d-500
+                                - envi-f-1001
+                                - envi-f-5002
+                                - envi-f-510
+                                - hist-f-1001
+                                - sapu-d-502
+                        Module Droit et médias:
+                            - droi-c-5100
+                            - phil-b-515
+                            - Cours optionnels:
+                                - comm-b-300
+                                - comm-b-305
+                                - comm-b-400
+                                - comm-b-530
+                                - droi-c-5141
+                                - ling-b-430
+                                - stic-b-410
+                    - ethi-b-500
+                    - ethi-b-505
+                    - ethi-b-510
+            Sciences des Religions et de la Laïcité:
+                Bloc 1:
+                    Tronc commun:
+                        - memo-b-400
+                        - orie-b-160
+                        - rela-b-460
+                        - rela-b-465
+                        - rela-b-470
+                        - soca-d-473
+                    Modules:
+                        Module fait religieux contemporain:
+                            - rela-b-420
+                            - rela-b-425
+                            - soca-d-499
+                        Module Diachronie de la religion:
+                            - clas-b-425
+                            - haar-b-4060
+                            - orie-b-110
+                            - rela-b-4005
+                            - rela-b-430
+                    Finalité assistance morale laïque:
+                        - ethi-b-405
+                        - ethi-b-410
+                        - psyc-e-433
+                    Finalité analyse du fait religieux:
+                        - orie-b-445
+                        - rela-b-455
+                        - rela-y-475
+                Bloc 2:
+                    Tronc commun:
+                        - memo-b-500
+                        - rela-b-540
+                    Modules:
+                        Module fait religieux contemporain:
+                            - poli-d-513
+                            - rela-d-500
+                            - rela-y-410
+                        Module Diachronie de la religion:
+                            - rela-b-435
+                            - rela-b-520
+                            - rela-b-530
+                            - rela-b-550
+                    Finalité assistance morale laïque:
+                        - ethi-b-415
+                        - sapu-l-5312
+                        - sapu-l-5313
+                    Finalité analyse du fait religieux:
+                        - rela-b-560
+                        - rela-b-570
+    Sciences Humaines et Sociales:
+        Bachelier:
+            Bloc 1:
+                - droi-d-103
+                - hist-b-155
+                - hist-d-102
+                - lang-d-104
+                - phil-d-101
+                - poli-d-101
+                - poli-d-102
+                - soca-d-101
+                - soca-d-173
+                - stat-d-103
+                - Français:
+                    - psyc-d-102
+                    - soca-d-102
+                - Néerlandais:
+                    - psyc-y-100
+                    - soca-y-100
+            Bloc 2:
+                - droi-d-203
+                - econ-d-210
+                - hist-d-172
+                - lang-d-204
+                - soca-d-201
+                - soca-d-304
+                - stat-d-203
+                - Langues:
+                    - lang-d-214
+                    - lang-d-231
+                - Cours optionnels:
+                    - soca-d-202
+                    - soca-y-200
+                    - comm-b-110
+                    - econ-s-303
+                    - hist-b-110
+                    - hist-d-201
+                    - hist-d-202
+                    - poli-d-201
+                    - poli-d-204
+                    - soca-d-206
+                    - soca-d-207
+            Bloc 3:
+            - lang-d-304
+            - poli-d-302
+            - poli-d-311
+            - soca-d-315
+            - soca-d-323
+            - stat-d-310
+            - Langues:
+                - lang-d-314
+                - lang-d-331
+            Mineure en Sciences politiques:
+                - poli-d-305
+                - poli-d-306
+                - poli-d-316
+                - Cours optionnels:
+                    - poli-d-205
+                    - poli-d-301
+                    - poli-d-304
+            Mineure en Sciences du travail:
+                - psyc-e-202
+                - soca-d-203
+                - soca-d-313
+                - stat-d-206
+                - stat-d-307
+            Mineure en Criminologie:
+                - crim-c-201
+                - crim-c-203
+                - droi-c-201
+                - stat-d-307
+                - Cours optionnels:
+                    - geog-f-103
+                    - poli-d-301
+                    - poli-d-305
+                    - soca-d-203
+            Mineure en Gestion des ressources humaines:
+                - psyc-d-202
+                - soca-d-203
+                - soca-d-313
+                - stat-d-206
+                - Cours optionnels:
+                    - poli-d-301
+                    - poli-d-305
+                    - psyc-e-202
+            Mineure en Santé publique:
+                - droi-l-3011
+                - sapu-l-3012
+                - sapu-l-4017
+                - sapu-l-5312
+                - soca-d-425
+            Mineure en Sciences de l'éducation:
+                - educ-e-201
+                - educ-e-3002
+                - educ-e-3055
+                - educ-e-3058
+                - educ-e-401
+            Mineure en Anthropologie:
+                - soca-d-204
+                - soca-d-208
+                - soca-d-309
+                - soca-d-473
+                - Cours optionnels:
+                    - geog-f-103
+                    - soca-d-203
+                    - stat-d-307
+            Mineure en Sciences de la population:
+                - geog-f-103
+                - soca-d-309
+                - stat-d-307
+                - Cours optionnels:
+                    - poli-d-304
+                    - soca-d-203
+                    - soca-d-473
+                    - stat-d-206
+            Mineure en Sociologie:
+                - psyc-d-202
+                - soca-d-209
+                - soca-d-210
+                - stat-d-307
+                - Cours optionnels:
+                    - geog-f-103
+                    - poli-d-301
+                    - soca-d-208
