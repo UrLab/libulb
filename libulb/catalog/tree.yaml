@@ -5795,127 +5795,270 @@ Philosophie et Sciences Sociales:
                     Finalité analyse du fait religieux:
                         - rela-b-560
                         - rela-b-570
-    Sciences Humaines et Sociales:
+    Sciences Politiques et Sociales:
         Bachelier:
-            Bloc 1:
-                - droi-d-103
-                - hist-b-155
-                - hist-d-102
-                - lang-d-104
-                - phil-d-101
-                - poli-d-101
-                - poli-d-102
-                - soca-d-101
-                - soca-d-173
-                - stat-d-103
-                - Français:
-                    - psyc-d-102
-                    - soca-d-102
-                - Néerlandais:
-                    - psyc-y-100
-                    - soca-y-100
-            Bloc 2:
-                - droi-d-203
-                - econ-d-210
-                - hist-d-172
-                - lang-d-204
-                - soca-d-201
-                - soca-d-304
-                - stat-d-203
-                - Langues:
-                    - lang-d-214
-                    - lang-d-231
-                - Cours optionnels:
-                    - soca-d-202
-                    - soca-y-200
-                    - comm-b-110
-                    - econ-s-303
-                    - hist-b-110
-                    - hist-d-201
-                    - hist-d-202
-                    - poli-d-201
-                    - poli-d-204
-                    - soca-d-206
-                    - soca-d-207
-            Bloc 3:
-            - lang-d-304
-            - poli-d-302
-            - poli-d-311
-            - soca-d-315
-            - soca-d-323
-            - stat-d-310
-            - Langues:
-                - lang-d-314
-                - lang-d-331
-            Mineure en Sciences politiques:
-                - poli-d-305
-                - poli-d-306
-                - poli-d-316
-                - Cours optionnels:
-                    - poli-d-205
-                    - poli-d-301
-                    - poli-d-304
-            Mineure en Sciences du travail:
-                - psyc-e-202
-                - soca-d-203
-                - soca-d-313
-                - stat-d-206
-                - stat-d-307
-            Mineure en Criminologie:
-                - crim-c-201
-                - crim-c-203
-                - droi-c-201
-                - stat-d-307
-                - Cours optionnels:
-                    - geog-f-103
-                    - poli-d-301
+            Sciences Humaines et Sociales:
+                Bloc 1:
+                    - droi-d-103
+                    - hist-b-155
+                    - hist-d-102
+                    - lang-d-104
+                    - phil-d-101
+                    - poli-d-101
+                    - poli-d-102
+                    - soca-d-101
+                    - soca-d-173
+                    - stat-d-103
+                    - Français:
+                        - psyc-d-102
+                        - soca-d-102
+                    - Néerlandais:
+                        - psyc-y-100
+                        - soca-y-100
+                Bloc 2:
+                    - droi-d-203
+                    - econ-d-210
+                    - hist-d-172
+                    - lang-d-204
+                    - soca-d-201
+                    - soca-d-304
+                    - stat-d-203
+                    - Langues:
+                        - lang-d-214
+                        - lang-d-231
+                    - Cours optionnels:
+                        - soca-d-202
+                        - soca-y-200
+                        - comm-b-110
+                        - econ-s-303
+                        - hist-b-110
+                        - hist-d-201
+                        - hist-d-202
+                        - poli-d-201
+                        - poli-d-204
+                        - soca-d-206
+                        - soca-d-207
+                Bloc 3:
+                    - lang-d-304
+                    - poli-d-302
+                    - poli-d-311
+                    - soca-d-315
+                    - soca-d-323
+                    - stat-d-310
+                    - Langues:
+                        - lang-d-314
+                        - lang-d-331
+                Mineure en Sciences politiques:
                     - poli-d-305
-                    - soca-d-203
-            Mineure en Gestion des ressources humaines:
-                - psyc-d-202
-                - soca-d-203
-                - soca-d-313
-                - stat-d-206
-                - Cours optionnels:
-                    - poli-d-301
-                    - poli-d-305
+                    - poli-d-306
+                    - poli-d-316
+                    - Cours optionnels:
+                        - poli-d-205
+                        - poli-d-301
+                        - poli-d-304
+                Mineure en Sciences du travail:
                     - psyc-e-202
-            Mineure en Santé publique:
-                - droi-l-3011
-                - sapu-l-3012
-                - sapu-l-4017
-                - sapu-l-5312
-                - soca-d-425
-            Mineure en Sciences de l'éducation:
-                - educ-e-201
-                - educ-e-3002
-                - educ-e-3055
-                - educ-e-3058
-                - educ-e-401
-            Mineure en Anthropologie:
-                - soca-d-204
-                - soca-d-208
-                - soca-d-309
-                - soca-d-473
-                - Cours optionnels:
-                    - geog-f-103
                     - soca-d-203
-                    - stat-d-307
-            Mineure en Sciences de la population:
-                - geog-f-103
-                - soca-d-309
-                - stat-d-307
-                - Cours optionnels:
-                    - poli-d-304
-                    - soca-d-203
-                    - soca-d-473
+                    - soca-d-313
                     - stat-d-206
-            Mineure en Sociologie:
-                - psyc-d-202
-                - soca-d-209
-                - soca-d-210
-                - stat-d-307
-                - Cours optionnels:
-                    - geog-f-103
-                    - poli-d-301
+                    - stat-d-307
+                Mineure en Criminologie:
+                    - crim-c-201
+                    - crim-c-203
+                    - droi-c-201
+                    - stat-d-307
+                    - Cours optionnels:
+                        - geog-f-103
+                        - poli-d-301
+                        - poli-d-305
+                        - soca-d-203
+                Mineure en Gestion des ressources humaines:
+                    - psyc-d-202
+                    - soca-d-203
+                    - soca-d-313
+                    - stat-d-206
+                    - Cours optionnels:
+                        - poli-d-301
+                        - poli-d-305
+                        - psyc-e-202
+                Mineure en Santé publique:
+                    - droi-l-3011
+                    - sapu-l-3012
+                    - sapu-l-4017
+                    - sapu-l-5312
+                    - soca-d-425
+                Mineure en Sciences de l'éducation:
+                    - educ-e-201
+                    - educ-e-3002
+                    - educ-e-3055
+                    - educ-e-3058
+                    - educ-e-401
+                Mineure en Anthropologie:
+                    - soca-d-204
                     - soca-d-208
+                    - soca-d-309
+                    - soca-d-473
+                    - Cours optionnels:
+                        - geog-f-103
+                        - soca-d-203
+                        - stat-d-307
+                Mineure en Sciences de la population:
+                    - geog-f-103
+                    - soca-d-309
+                    - stat-d-307
+                    - Cours optionnels:
+                        - poli-d-304
+                        - soca-d-203
+                        - soca-d-473
+                        - stat-d-206
+                Mineure en Sociologie:
+                    - psyc-d-202
+                    - soca-d-209
+                    - soca-d-210
+                    - stat-d-307
+                    - Cours optionnels:
+                        - geog-f-103
+                        - poli-d-301
+                        - soca-d-208
+            Sciences Politiques:
+                Bloc 1:
+                    - droi-d-103
+                    - hist-b-155
+                    - hist-d-102
+                    - hist-d-172
+                    - lang-d-103
+                    - phil-d-101
+                    - poli-d-104
+                    - soca-d-102
+                    - soca-d-173
+                    - stat-d-103
+                    - Modules:
+                        Module unilingue Français:
+                            - poli-d-101
+                            - poli-d-102
+                        Module Néerlandais:
+                            - poli-d-105
+                            - poli-d-106
+                Bloc 2:
+                    - droi-d-203
+                    - econ-d-210
+                    - hist-d-202
+                    - lang-d-203
+                    - poli-d-202
+                    - poli-d-205
+                    - poli-d-207
+                    - poli-d-208
+                    - Modules:
+                        Module unilingue Français:
+                            - hist-d-201
+                            - poli-d-201
+                        Module Néerlandais:
+                            - poli-d-209
+                            - poli-d-212
+                    - Langue - Niveau I:
+                        - germ-b-260
+                        - lang-d-213
+                        - lang-d-230
+                Bloc 3:
+                    - lang-d-303
+                    - poli-d-204
+                    - poli-d-301
+                    - poli-d-302
+                    - poli-d-306
+                    - poli-d-316
+                    - Modules:
+                        Module unilingue Français:
+                            - poli-d-305
+                            - poli-d-311
+                        Module Néerlandais:
+                            - poli-d-320
+                            - poli-d-321
+                    - Langue - niveau II:
+                        - germ-b-132
+                        - lang-d-315
+                        - lang-d-330
+                    - Exercices en sciences politiques:
+                        - poli-d-309
+                        - poli-d-310
+                Cours optionnels:
+                        - genr-d-301
+                        - geog-f-103
+                        - geog-f-210
+                        - geog-s-101
+                        - hist-b-110
+                        - hist-f-1001
+                        - info-d-203
+                        - phil-b-320
+                        - soca-d-101
+                        - soca-d-209
+                        - soca-d-304
+                        - soca-d-309
+            Sociologie et Anthropologie:
+                Bloc 1:
+                    - droi-d-103
+                    - geog-f-103
+                    - hist-d-102
+                    - hist-d-172
+                    - lang-d-104
+                    - phil-d-101
+                    - soca-d-101
+                    - soca-d-106
+                    - soca-d-173
+                    - stat-d-103
+                    - Psychologie:
+                        - psyc-d-102
+                        - psyc-y-100
+                    - Sociologie générale:
+                        - soca-d-102
+                        - soca-y-100
+                Bloc 2:
+                    - droi-d-203
+                    - econ-d-210
+                    - lang-d-204
+                    - psyc-d-202
+                    - soca-d-201
+                    - soca-d-204
+                    - soca-d-209
+                    - stat-d-203
+                    - Sociologie II:
+                        - soca-d-202
+                        - soca-y-200
+                    - Cours optionnels:
+                        - lang-d-214
+                        - lang-d-231
+                        - soca-d-206
+                        - hist-b-100
+                        - hist-b-105
+                        - hist-b-155
+                        - hist-d-201
+                        - poli-d-101
+                        - soca-d-206
+                Bloc 3:
+                    - lang-d-304
+                    - soca-d-203
+                    - soca-d-323
+                    - soca-d-324
+                    - Démographie:
+                        - soca-d-304
+                        - soca-y-301
+                    - Cours optionnels:
+                        - soca-d-315
+                        - soca-d-425
+                        - comm-b-110
+                        - soca-d-207
+                Option sociologie:
+                    - info-d-203
+                    - soca-d-313
+                    - Cours optionnels:
+                        - soca-d-210
+                        - soca-y-203
+                        - lang-d-314
+                        - lang-d-331
+                        - poli-d-301
+                        - soca-d-315
+                Option anthropologie:
+                    - soca-d-208
+                    - soca-d-307
+                    - soca-d-309
+                    - soca-d-316
+                    - soca-d-473
