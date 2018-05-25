@@ -6803,3 +6803,59 @@ Philosophie et Sciences Sociales:
                 - soca-d-497
                 - soca-d-499
                 - soca-d-4996
+    Sciences Economiques et de Gestion:
+        Master:
+            Gestion culturelle:
+                Bloc 1:
+                    Outils:
+                        - gecu-d-400
+                        - gecu-d-401
+                        - gecu-y-400
+                        - gest-b-405
+                        - gest-b-435
+                    Territoires:
+                        - gecu-d-402
+                        - gecu-d-403
+                    Application:
+                        - stag-b-430
+                        - stag-b-432
+                    Recherche:
+                        - memo-b-400
+                Bloc 2:
+                    Territoires:
+                        - gecu-d-500
+                        - gecu-d-501
+                    Application:
+                        - gest-b-515
+                        - stag-b-530
+                    Recherche:
+                        - memo-b-500
+                Modules:
+                    Module Arts du spectacle:
+                        - artc-b-500
+                        - artc-b-515
+                        - cine-b-415
+                        - cine-b-510
+                    Module livres et bibliothèques:
+                        - cine-b-425
+                        - stic-b-415
+                        - stic-b-420
+                        - stic-b-521
+                        - stic-b-530
+                    Module Musées et arts plastiques:
+                        - haar-b-4035
+                        - haar-b-4040
+                        - haar-b-4045
+                        - haar-b-5090
+                    Module Patrimoine touristique:
+                        - tour-f-401
+                        - tour-f-419
+                        - tour-f-422
+                        - tour-f-516
+                        - tour-f-519
+                    Module multidisciplinaire:
+                        - comm-b-415
+                        - comm-b-420
+                        - gest-d-447
+                        - soca-b-400
+                        - soca-d-422
