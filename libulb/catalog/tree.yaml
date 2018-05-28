@@ -4630,7 +4630,7 @@ Philosophie et Sciences Sociales:
                     - geog-f-103
                     - hist-b-200
                     - hist-s-101
-                    - Cours optionnels:
+                    - Options:
                         - hist-b-215
                         - hist-b-220
                         - hist-b-225
@@ -4657,7 +4657,7 @@ Philosophie et Sciences Sociales:
                         - slav-b-335
                     - genr-d-301
                     - hist-b-300
-                    - Cours optionnels:
+                    - Options:
                         - droi-d-103
                         - haar-d-303
                         - hist-b-215
@@ -4676,13 +4676,13 @@ Philosophie et Sciences Sociales:
                     - tran-b-110
                     - haar-b-105
                     - haar-b-115
-                    Orientation générale:
+                    - Général:
                         - haar-b-100
                         - haar-b-126
                         - haar-b-130
                         - haar-b-200
                         - haar-b-341
-                    Orientation musicologie:
+                    - Musicologie:
                         - haar-b-110
                         - musi-b-100
                         - musi-b-105
@@ -4706,14 +4706,14 @@ Philosophie et Sciences Sociales:
                         - slav-b-216
                         - slav-b-226
                         - slav-b-235
-                    - Orientation générale:
+                    - Général:
                         - haar-b-110
                         - haar-b-230
                         - haar-b-305
                         - Méthodologie:
                             - haar-b-215
                             - haar-b-220
-                        - Cours optionnels:
+                        - Options:
                             - haar-b-245
                             - haar-b-250
                             - haar-b-265
@@ -4775,7 +4775,7 @@ Philosophie et Sciences Sociales:
                         - musi-b-300
                         - musi-b-306
                         - musi-y-301
-                        - Cours optionnels:
+                        - Options:
                             - haar-b-125
                             - haar-b-220
             Mineure en Philosophie:
@@ -4801,7 +4801,7 @@ Philosophie et Sciences Sociales:
                     - clas-b-1000
                     - clas-b-230
                     - haar-b-200
-                    - Cours optionnels:
+                    - Options:
                         - clas-b-225
                         - haar-b-200
                 Bloc 3:
@@ -4813,7 +4813,7 @@ Philosophie et Sciences Sociales:
             Mineure en Langue et lettres françaises:
                 Bloc 2:
                   - fran-b-100
-                  - Cours optionnels:
+                  - Options:
                       - fran-b-115
                       - fran-b-210
                 Bloc 3:
@@ -4892,7 +4892,7 @@ Philosophie et Sciences Sociales:
             Mineure en Histoire de l'art et archéologie:
                 Bloc 2:
                     - haar-b-130
-                    - Cours optionnels:
+                    - Options:
                         - haar-b-100
                         - haar-b-105
                         - haar-b-200
@@ -4912,7 +4912,7 @@ Philosophie et Sciences Sociales:
                         - haar-d-304
                 Bloc 3:
                     - haar-b-125
-                    - Cours optionnels:
+                    - Options:
                         - haar-b-110
                         - haar-b-115
                         - haar-b-230
@@ -4933,7 +4933,7 @@ Philosophie et Sciences Sociales:
             Mineure en Musicologie:
                 Bloc 2:
                     - musi-b-105
-                    - Cours optionnels:
+                    - Options:
                         - musi-b-100
                         - musi-b-100
                         - musi-b-440
@@ -5035,7 +5035,7 @@ Philosophie et Sciences Sociales:
                     Finalité didactique:
                         - peda-e-510
                         - peda-b-438
-                        - Cours optionnels:
+                        - Options:
                             - peda-b-418
                             - peda-b-470
                     Finalité histoire et administrations:
@@ -5088,12 +5088,12 @@ Philosophie et Sciences Sociales:
                     Finalité didactique:
                         - educ-e-520
                         - peda-b-558
-                        - Cours optionnels:
+                        - Options:
                             - peda-b-519
                             - peda-b-578
                     Finalité histoire et administrations:
                         - stag-b-500
-                        - Cours optionnels:
+                        - Options:
                             - gecu-d-400
                             - gest-s-496
                             - stic-b-505
@@ -5112,7 +5112,7 @@ Philosophie et Sciences Sociales:
                                 - haar-b-4010
                                 - haar-b-4015
                                 - haar-b-4200
-                                - Cours optionnels:
+                                - Options:
                                     - haar-b-4205
                                     - haar-b-4210
                                     - haar-b-4215
@@ -5121,7 +5121,7 @@ Philosophie et Sciences Sociales:
                                 - haar-b-4205
                                 - haar-b-4210
                                 - haar-b-4215
-                                - Cours optionnels:
+                                - Options:
                                     - clas-b-440
                                     - hist-b-4015
                                     - hist-b-4200
@@ -5133,7 +5133,7 @@ Philosophie et Sciences Sociales:
                                 - haar-b-4035
                                 - haar-b-4225
                                 - haar-b-5040
-                                - Cours optionnels:
+                                - Options:
                                     - hist-b-4030
                                     - hist-b-4040
                             Module Art contemporain:
@@ -5142,7 +5142,7 @@ Philosophie et Sciences Sociales:
                                 - cine-b-515
                                 - haar-b-355
                                 - haar-b-5050
-                                - Cours optionnels:
+                                - Options:
                                     - haar-b-4230
                                     - haar-b-5220
                             Module Amérique précolombienne:
@@ -5157,10 +5157,10 @@ Philosophie et Sciences Sociales:
                                 - haar-d-400
                                 - haar-d-402
                                 - hist-b-4005
-                                - Cours optionnels:
-                        - haar-b-4200
-                        - haar-b-4215
-                        - soca-d-4996
+                                - Options:
+                                    - haar-b-4200
+                                    - haar-b-4215
+                                    - soca-d-4996
                         Finalité didactique:
                                 - peda-e-510
                                 - peda-b-419
@@ -5190,7 +5190,7 @@ Philosophie et Sciences Sociales:
                                 - haar-b-5020
                                 - haar-b-5025
                                 - haar-b-5030
-                                - Cours optionnels:
+                                - Options:
                                     - haar-b-5206
                                     - haar-b-5211
                                     - haar-b-5275
@@ -5198,14 +5198,14 @@ Philosophie et Sciences Sociales:
                                 - haar-b-5035
                                 - haar-b-5045
                                 - haar-b-5080
-                                - Cours optionnels:
+                                - Options:
                                     - haar-b-5030
                                     - rela-b-435
                                     - rela-b-530
                             Module Art contemporain:
                                 - haar-b-4040
                                 - haar-b-5080
-                                - Cours optionnels:
+                                - Options:
                                     - haar-b-4230
                                     - haar-b-5220
                                     - cine-b-510
@@ -5219,7 +5219,7 @@ Philosophie et Sciences Sociales:
                             Module Afrique:
                                 - haar-d-501
                                 - soca-d-487
-                                - Cours optionnels:
+                                - Options:
                                     - comm-b-330
                                     - orie-b-445
                                     - soca-d-408
@@ -5238,7 +5238,7 @@ Philosophie et Sciences Sociales:
                         Finalité mondes de l'art et culture visuelle:
                             - artc-b-500
                             - haar-b-5075
-                            - Cours optionnels:
+                            - Options:
                                 - hist-b-5005
                                 - tour-f-401
                 Orientation musicologie:
@@ -5249,7 +5249,7 @@ Philosophie et Sciences Sociales:
                             - musi-b-405
                             - musi-b-410
                             - musi-d-400
-                        Cours optionnels:
+                        Options:
                             - cine-b-400
                             - haar-b-5040
                             - haar-b-5045
@@ -5266,7 +5266,7 @@ Philosophie et Sciences Sociales:
                              - memo-b-500
                              - musi-b-515
                              - musi-d-500
-                        Cours optionnels:
+                        Options:
                             - haar-b-4025
                             - hist-b-5005
                         Finalité musicologie appliquée:
@@ -5353,19 +5353,19 @@ Philosophie et Sciences Sociales:
                     - clas-b-1000
                     - clas-b-230
                     - haar-b-200
-                    - Cours optionnels:
+                    - Options:
                         - clas-b-225
                         - haar-b-200
                 Bloc 3:
                     - clas-b-331
                     - clas-y-3000
-                    - Cours optionnels:
+                    - Options:
                         - clas-b-3000
                         - clas-b-326
             Mineure en Langue et lettres françaises:
                 Bloc 2:
                     - fran-b-100
-                    - Cours optionnels:
+                    - Options:
                         - fran-b-115
                         - fran-b-210
                 Bloc 3:
@@ -5462,7 +5462,7 @@ Philosophie et Sciences Sociales:
             Mineure en Histoire de l'art et archéologie:
                 Bloc 2:
                     - haar-b-130
-                    - Cours optionnels:
+                    - Options:
                         - haar-b-100
                         - haar-b-105
                         - haar-b-200
@@ -5482,7 +5482,7 @@ Philosophie et Sciences Sociales:
                         - haar-d-304
                 Bloc 3:
                     - haar-b-125
-                    - Cours optionnels:
+                    - Options:
                         - haar-b-110
                         - haar-b-115
                         - haar-b-230
@@ -5503,9 +5503,9 @@ Philosophie et Sciences Sociales:
             Mineure en Musicologie:
                 Bloc 2:
                     - musi-b-105
-                        - Cours optionnels:
-                            - musi-b-100
-                            - musi-b-440
+                    - Options:
+                        - musi-b-100
+                        - musi-b-440
                 Bloc 3:
                     - musi-b-200
                     - musi-b-205
@@ -5596,7 +5596,7 @@ Philosophie et Sciences Sociales:
                                 - phil-y-408
                     Finalité approfondie:
                         - phil-b-435
-                        - Cours optionnels:
+                        - Options:
                             Esthétique:
                                 - cine-b-410
                                 - haar-b-5075
@@ -5659,7 +5659,7 @@ Philosophie et Sciences Sociales:
                             - phil-y-509
                 Finalité approfondie:
                     - phil-b-525
-                    - Cours optionnels:
+                    - Options:
                         Esthétique:
                             - cine-b-410
                             - haar-b-5075
@@ -5710,14 +5710,14 @@ Philosophie et Sciences Sociales:
                     - ethi-b-410
                 Bloc 2:
                     - memo-b-500
-                    - Cours optionnels:
+                    - Options:
                         - ethi-d-500
                         - ethi-d-501
                     - Modules:
                         Module Bioéthique:
                             - droi-c-5136
                             - phil-b-505
-                            - Cours optionnels:
+                            - Options:
                                 - biol-f-102
                                 - droi-l-3012
                                 - hist-b-4050
@@ -5725,7 +5725,7 @@ Philosophie et Sciences Sociales:
                         Module Développement et environnement:
                             - envi-f-434
                             - soca-d-461
-                            - Cours optionnels:
+                            - Options:
                                 - envi-d-500
                                 - envi-f-1001
                                 - envi-f-5002
@@ -5735,7 +5735,7 @@ Philosophie et Sciences Sociales:
                         Module Droit et médias:
                             - droi-c-5100
                             - phil-b-515
-                            - Cours optionnels:
+                            - Options:
                                 - comm-b-300
                                 - comm-b-305
                                 - comm-b-400
@@ -5826,7 +5826,7 @@ Philosophie et Sciences Sociales:
                     - Langues:
                         - lang-d-214
                         - lang-d-231
-                    - Cours optionnels:
+                    - Options:
                         - soca-d-202
                         - soca-y-200
                         - comm-b-110
@@ -5852,7 +5852,7 @@ Philosophie et Sciences Sociales:
                     - poli-d-305
                     - poli-d-306
                     - poli-d-316
-                    - Cours optionnels:
+                    - Options:
                         - poli-d-205
                         - poli-d-301
                         - poli-d-304
@@ -5867,7 +5867,7 @@ Philosophie et Sciences Sociales:
                     - crim-c-203
                     - droi-c-201
                     - stat-d-307
-                    - Cours optionnels:
+                    - Options:
                         - geog-f-103
                         - poli-d-301
                         - poli-d-305
@@ -5877,7 +5877,7 @@ Philosophie et Sciences Sociales:
                     - soca-d-203
                     - soca-d-313
                     - stat-d-206
-                    - Cours optionnels:
+                    - Options:
                         - poli-d-301
                         - poli-d-305
                         - psyc-e-202
@@ -5898,7 +5898,7 @@ Philosophie et Sciences Sociales:
                     - soca-d-208
                     - soca-d-309
                     - soca-d-473
-                    - Cours optionnels:
+                    - Options:
                         - geog-f-103
                         - soca-d-203
                         - stat-d-307
@@ -5906,7 +5906,7 @@ Philosophie et Sciences Sociales:
                     - geog-f-103
                     - soca-d-309
                     - stat-d-307
-                    - Cours optionnels:
+                    - Options:
                         - poli-d-304
                         - soca-d-203
                         - soca-d-473
@@ -5916,7 +5916,7 @@ Philosophie et Sciences Sociales:
                     - soca-d-209
                     - soca-d-210
                     - stat-d-307
-                    - Cours optionnels:
+                    - Options:
                         - geog-f-103
                         - poli-d-301
                         - soca-d-208
@@ -5980,7 +5980,7 @@ Philosophie et Sciences Sociales:
                     - Exercices en sciences politiques:
                         - poli-d-309
                         - poli-d-310
-                Cours optionnels:
+                Options:
                         - genr-d-301
                         - geog-f-103
                         - geog-f-210
@@ -6023,7 +6023,7 @@ Philosophie et Sciences Sociales:
                     - Sociologie II:
                         - soca-d-202
                         - soca-y-200
-                    - Cours optionnels:
+                    - Options:
                         - lang-d-214
                         - lang-d-231
                         - soca-d-206
@@ -6041,7 +6041,7 @@ Philosophie et Sciences Sociales:
                     - Démographie:
                         - soca-d-304
                         - soca-y-301
-                    - Cours optionnels:
+                    - Options:
                         - soca-d-315
                         - soca-d-425
                         - comm-b-110
@@ -6049,7 +6049,7 @@ Philosophie et Sciences Sociales:
                 Option sociologie:
                     - info-d-203
                     - soca-d-313
-                    - Cours optionnels:
+                    - Options:
                         - soca-d-210
                         - soca-y-203
                         - lang-d-314
@@ -6075,7 +6075,7 @@ Philosophie et Sciences Sociales:
                     - poli-d-541
                     - soca-d-405
                     - soca-d-4993
-                    - Cours optionnels:
+                    - Options:
                         - poli-d-417
                         - poli-d-500
                 Bloc 2:
@@ -6095,7 +6095,7 @@ Philosophie et Sciences Sociales:
                     - soca-d-457
                     - soca-d-468
                     - soca-d-485
-                    - Cours optionnels:
+                    - Options:
                         - droi-c-5105
                         - econ-d-435
                         - haar-b-350
@@ -6138,7 +6138,7 @@ Philosophie et Sciences Sociales:
                     - soca-d-308
                     - soca-d-466
                     - soca-d-518
-                    - Cours optionnels:
+                    - Options:
                         - droi-c-5105
                         - econ-d-435
                         - haar-b-350
@@ -6188,7 +6188,7 @@ Philosophie et Sciences Sociales:
                         - poli-d-436
                         - poli-o-410
                         - poli-o-503
-                        - Cours optionnels:
+                        - Options:
                             The multiple boundaries of Europe:
                                 - poli-d-513
                                 - tran-o-609
@@ -6203,12 +6203,12 @@ Philosophie et Sciences Sociales:
                         - hist-d-401
                         - hist-d-402
                         - hist-o-402
-                        - Cours optionnels:
-                            European societies:
+                        - Options:
+                            - European societies:
                                 - hist-b-4005
                                 - rela-b-425
                                 - soca-d-499
-                            European cultures:
+                            - European cultures:
                                 - fran-b-516
                                 - hist-d-500
                                 - slav-b-200
@@ -6219,22 +6219,22 @@ Philosophie et Sciences Sociales:
                         - tran-o-507
                     Finalité politique européenne:
                         - poli-o-409
-                        - Cours optionnels:
-                        The multiple boundaries of Europe:
-                            - poli-d-513
-                            - tran-o-609
-                            - tran-o-610
-                        Politics and regulation in the EU:
-                            - poli-d-456
-                            - poli-o-416
-                            - poli-o-417
+                        - Options:
+                            - The multiple boundaries of Europe:
+                                - poli-d-513
+                                - tran-o-609
+                                - tran-o-610
+                            - Politics and regulation in the EU:
+                                - poli-d-456
+                                - poli-o-416
+                                - poli-o-417
                     Finalité histoires et cultures d'europe:
-                        - Cours optionnels:
-                            European societies:
+                        - Options:
+                            - European societies:
                                 - hist-b-4005
                                 - rela-b-425
                                 - soca-d-499
-                            European cultures:
+                            - European cultures:
                                 - fran-b-516
                                 - hist-d-500
                                 - slav-b-200
@@ -6254,7 +6254,7 @@ Philosophie et Sciences Sociales:
                         - soca-d-475
                     Module Psychologie:
                         - psyc-d-402
-                    Cours optionnels:
+                    Options:
                         - droi-c-681
                         - econ-d-438
                         - econ-s-312
@@ -6277,7 +6277,7 @@ Philosophie et Sciences Sociales:
                         - soca-d-509
                     Module Mémoire:
                         - memo-d-502
-                    Cours optionnels:
+                    Options:
                         - droi-c-681
                         - econ-d-438
                         - econ-s-312
@@ -6303,7 +6303,7 @@ Philosophie et Sciences Sociales:
                     - memo-d-502
                     - soca-d-538
                     - soca-d-539
-                Cours optionnels:
+                Options:
                     - poli-d-425
                     - soca-d-443
                     - Développement:
@@ -6371,7 +6371,7 @@ Philosophie et Sciences Sociales:
                         - memo-d-517
                         - soca-d-532
                         - soca-d-557
-                        - Cours optionnels:
+                        - Options:
                             - gest-d-464
                             - gest-d-539
                             - psyc-d-528
@@ -6395,7 +6395,7 @@ Philosophie et Sciences Sociales:
                         - gest-s-429
                         - poli-d-420
                         - soca-d-411
-                        - Cours optionnels:
+                        - Options:
                             - droi-c-5120
                             - droi-c-5006
                 Finalité genre et inégalités:
@@ -6443,7 +6443,7 @@ Philosophie et Sciences Sociales:
                         - econ-d-453
                         - soca-d-495
                         - soca-d-544
-                        - Cours optionnels:
+                        - Options:
                             - psyc-d-407
                             - soca-d-543
                     Bloc 2:
@@ -6463,7 +6463,7 @@ Philosophie et Sciences Sociales:
                                 - soca-d-555
                                 - psyc-d-407
                                 - soca-d-543
-                Cours optionnels:
+                Options:
                     Cours Bruxelles Horaire décalé:
                         - gest-d-443
                         - gest-d-540
@@ -6501,7 +6501,7 @@ Philosophie et Sciences Sociales:
                     - soca-d-458
                     - soca-d-467
                     - soca-d-472
-                    - Cours optionnels:
+                    - Options:
                         - soca-d-413
                         - soca-d-430
                 Bloc 2:
@@ -6602,7 +6602,7 @@ Philosophie et Sciences Sociales:
                         Module Afrique:
                             - haar-b-350
                             - poli-d-304
-                    Cours optionnels:
+                    Options:
                     - droi-c-5155
                     - genr-d-501
                     - geog-f-3134
@@ -6634,7 +6634,7 @@ Philosophie et Sciences Sociales:
                             - poli-d-434
                             - poli-d-446
                             - poli-d-404
-                            - Cours optionnels:
+                            - Options:
                                 - droi-c-4001
                                 - droi-c-4020
                                 - droi-c-5155
@@ -6663,7 +6663,7 @@ Philosophie et Sciences Sociales:
                             - poli-d-520
                         Finalité mondialisation et politiques publiques:
                             - poli-d-445
-                            - Cours optionnels:
+                            - Options:
                                 - droi-c-5148
                                 - droi-c-5150
                                 - droi-c-615
@@ -6677,7 +6677,7 @@ Philosophie et Sciences Sociales:
                         - memo-d-528
                         - Finalité sécurité, paix, conflits:
                             - droi-o-605
-                            - Cours optionnels:
+                            - Options:
                                 - droi-c-5149
                                 - droi-c-685
                                 - ethi-b-510
@@ -6725,7 +6725,7 @@ Philosophie et Sciences Sociales:
                                 - soca-d-471
                         - Finalité mondialisation et politiques publiques:
                             - poli-d-521
-                            - Cours optionnels:
+                            - Options:
                                 - droi-c-5148
                                 - droi-c-5150
                                 - droi-c-615
@@ -6873,7 +6873,6 @@ Philosophie et Sciences Sociales:
                 - soca-d-487
     Sciences de l'Ingénieur et Technologie:
         Master:
-          (Dans 3 facs différentes, Architecture, Polytech, et Philo/SciSoc)
             Spécialisation en conservation-restauration du patrimoine culturel immobilier:
                 Bloc 1:
                     - arch-y-600
